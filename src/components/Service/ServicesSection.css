@@ -1,0 +1,50 @@
+.div-service {
+    padding-left: 50px;
+  
+  }
+  
+  .title-services {
+    font-size: 110px;
+    font-weight: 900;
+    line-height: 143px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-bottom: 32px;
+  }
+  
+  .card-container-main {
+    background-color: #38413c;
+    border-radius: 25px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    padding: 16px;
+  }
+  
+  .card-container-image {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-bottom: 215px !important;
+  }
+  
+  .card-container-image img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .card-text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .swiper-container {
+    padding-bottom: 16px;
+  }
+  
+  .swiper-slide {
+    padding: 16px;
+  }

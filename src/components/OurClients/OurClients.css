@@ -1,0 +1,15 @@
+.ourClients{
+    text-align: center;
+  }
+  .title-ourClients{
+      color: white;
+      margin-bottom: 48px;
+      font-size: 60px;
+      font-weight: 900;
+      line-height: 78px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+  }
+  .ouClients img{
+    margin-bottom: 220px;
+  }

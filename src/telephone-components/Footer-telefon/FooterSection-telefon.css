@@ -1,0 +1,90 @@
+@media (max-width: 768px) {
+.footerTelefon{
+    background-image: url('public/Vector 52.png');
+    background-size: cover; /* Prikazuje celu sliku bez sečenja */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 635px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerTelefon h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-decoration-line: underline;
+    padding-bottom: 118px;
+    margin: 0;
+}
+.footerTelefon p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color: white;
+    margin: 0;
+}
+.footerPrivacy{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.6px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    padding-top: 14px;
+    padding-bottom: 24px;
+}
+.footerFollow{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color: white;
+    padding-bottom: 12px;
+}
+.social-container{
+    display: flex;
+    justify-content: center;
+}
+.instagram-icon{
+    padding-right: 12px;
+}
+.main-footer-content-telefon {
+    display: flex; 
+    width: 100%; 
+    overflow: hidden;
+    margin-top: 150px;
+    
+  }
+  .main-footer-content-telefon span {
+    white-space: nowrap; 
+    text-align: center;
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 66.07px;
+    font-weight: 400;
+    line-height: 85.9px;
+    animation: marquee 10s linear infinite; 
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+  .footer-container-telefon{
+    display: block !important;
+  }
+}
+.footer-container-telefon{
+    display: none;
+}

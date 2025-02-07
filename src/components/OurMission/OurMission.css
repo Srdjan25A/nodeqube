@@ -1,0 +1,34 @@
+.main-mission-container{
+    background-image: url('public/Container (1).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:109px 87px;
+
+}
+.main-mission-container img{
+    display: flex;
+
+}
+.second-mission-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-mission-container h2{
+    color: white;  
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+}
+.main-mission-container p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    color: white;
+}
+
+@media (max-width:768px){
+    .main-mission-container{
+        display: none;
+    }
+}

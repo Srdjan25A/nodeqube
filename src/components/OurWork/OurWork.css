@@ -1,0 +1,88 @@
+.title-timeline{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 78px;
+    color: white;
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 68px;
+    padding: 0;
+}
+.vertical-timeline {
+  position: relative;
+  margin: 50px auto;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 250px; 
+  position: relative; 
+}
+
+.timeline-point {
+  width: 126px; 
+  height: 126px; 
+  background-color: #38413C; 
+  font-size: 60px;
+  font-weight: 900;
+  color: #98D28B;
+  line-height: 78px;
+  border-radius: 25px; 
+  position: absolute; 
+  left: -50px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.vertical-timeline::before {
+  content: '';
+  position: absolute;
+  left: 10px; 
+  width: 8px; 
+  height: 95%; 
+   
+  background-color: #38413C; 
+  top: 5px; 
+}
+
+.timeline-content {
+  margin-left: 117px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-date {
+  color: #DDEFD8;
+  margin-bottom: 12px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+}
+
+.timeline-description {
+  color: white;
+  width: 45%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+
+
+}
+.timeline-point i {
+  color: #222; 
+}
+.checked{
+	/*color: #2BA5D9 !important;
+    font-weight: bold;*/
+}
+.checked-point{
+	/*background-color: #2BA5D9 !important;*/
+   
+}
+.checked-icons{
+	 /* color: white !important;*/
+}

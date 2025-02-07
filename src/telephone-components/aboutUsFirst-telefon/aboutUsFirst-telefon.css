@@ -1,0 +1,25 @@
+
+.title-about h2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 46.87px;
+    text-align: left;
+    color: white;
+}
+.first-container-aboutus span{
+    color: #98D28B;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 46.87px;
+    text-align: left;
+}
+.first-container-aboutus{
+    display: none;
+}
+@media (max-width:768px){
+    .first-container-aboutus{
+        display: block;
+        margin-top: 72px;
+        margin-bottom: 107px;
+    }
+}

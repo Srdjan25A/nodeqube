@@ -1,0 +1,56 @@
+.ourValuesContainer{
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+
+.image-values{
+    width: 64px;
+    height: 66px;
+}
+.ourValuesContainer h2{    
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 78px;
+    text-align: center;
+    color: white;
+    margin-bottom: 80px;
+}
+.ourValues-subtitle{
+    margin-top: 24px;
+    color: #DDEFD8;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 35.1px;
+}
+.ourValues-text{
+    color: #A6B5A4; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.34px;
+}
+@media (max-width:768px){
+    .ourValuesContainer h2{    
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36.46px;
+        text-align: center;
+        color: white;
+        margin-bottom: 44px;
+    }
+    .ourValuesContainer{
+        margin-top: 44px;
+        margin-bottom: 173px;
+    }
+    .ourValues-text{
+        margin-bottom: 48px;
+    }
+    
+    .ourValuesContainer h3{
+        border-top: 1px solid #39403B;
+        margin-top: 0px;
+        padding-top: 24px;
+    }
+    .image-values{
+        margin-bottom: 16px;
+    }
+}

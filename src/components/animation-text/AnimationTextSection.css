@@ -1,0 +1,24 @@
+.animation-content{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    color: #A6B5A4;
+    text-transform: uppercase;
+}
+.animation-container{
+    max-width: 2440px;
+    width: 843px;
+    padding-left: 50px;
+    margin-bottom: 160px;
+    margin-top: 169px;
+}
+.animation-image-content{
+    display: flex;
+}
+.animation-image-content img{
+    margin-right: 16px;
+}
+.animation-image-content p{
+    margin: 0px;
+    padding: 0px;
+}

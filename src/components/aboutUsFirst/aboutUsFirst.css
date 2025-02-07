@@ -1,0 +1,36 @@
+.aspire-title{
+    color: white !important; 
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 117.18px;
+    
+}
+.main-aspire-container{
+    margin-top: 153px;
+    background-image: url('public/Mask group (14).png');
+    background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;  /* Aktivira Flexbox */
+    justify-content: center;  /* Horizontalno centriranje */
+    align-items: center;  /* Vertikalno centriranje */
+    padding-left: 88px;
+}
+.aspire-container{
+    width: 100%  !important;
+    
+}
+.aspire-container span{
+    color: #98D28B;
+    font-size: 80px ;
+    font-weight: 900;
+    line-height: 117.18px;
+}
+@media (max-width: 768px){
+    .main-aspire-container {
+        display: none;
+      }
+}

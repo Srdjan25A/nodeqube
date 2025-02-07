@@ -1,0 +1,32 @@
+
+.mission-container-telefon{
+    display: none;
+}
+@media (max-width:768px){
+    .mission-container-telefon{
+        display: block !important;
+    }
+    .background-image-mission{
+        background-image: url('public/Container (2).png');
+        background-repeat: no-repeat;
+        padding: 51px 0;
+        background-position: center;
+        text-align: center;
+    }
+    .content-mission-telefon{
+        margin-bottom: 40px;
+    }
+    .content-mission-telefon h2{
+        color: white;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36.46px;
+    }
+    .content-mission-telefon p{
+        color: #DDEFD8;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.83px;
+    }
+}
+

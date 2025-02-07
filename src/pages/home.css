@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    /*background-image: url('public/background-image.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  overflow-x: hidden;*/
+}
+.naslovv{
+  margin: 0;
+  padding: 0;
+
+  color: #A6B5A4;
+font-size: 40px;
+font-weight: 600;
+line-height: 52px;
+
+}

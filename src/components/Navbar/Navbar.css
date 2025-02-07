@@ -1,0 +1,34 @@
+.navbar{
+    background-color: #47705C99;
+    padding: 16px;
+    border-radius: 41px;
+    width:626px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 50px;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%); /*vrati ga 50posto*/
+  
+}
+.navbar ul{
+    display:flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar ul li{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.2px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,59 @@
+.Lets-talk{
+    text-align: center;
+    padding-top: 142px;
+    overflow-x: hidden;
+}
+.swiper-container-lets{
+  width: 100% !important;
+   
+  overflow: hidden; 
+}
+.Lets-talk p{    
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 91px;
+    color: white;
+}
+.Lets-talk h2{
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 117.18px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+.Lets-talk button{
+    border-radius: 41px;
+    background-color: #98D28B;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.button-elipse{
+    margin-left: 12px;
+}
+.button-arrow {
+  display: none; 
+}
+
+.custom-button:hover .button-elipse {
+  display: none; 
+}
+
+.custom-button:hover .button-arrow {
+  display: inline-block; 
+}
+.swiper-container-lets {
+    transform: rotate(4deg); 
+    transform-origin: center;
+   
+   
+
+}
