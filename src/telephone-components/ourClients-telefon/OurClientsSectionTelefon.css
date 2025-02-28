@@ -1,0 +1,24 @@
+.ourClientsTelefon{
+    display: none;
+}
+@media (max-width: 768px){
+    .ourClientsTelefon{
+        display: block !important;
+    }
+    .ourClientsColumn{
+        text-align: center;
+    }
+    .ourClientsRow{
+        margin-top: 35px;
+    }
+    .ourClientsTelefon h2{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 46.87px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: white;
+        margin-bottom: 40px;
+    }
+}
+

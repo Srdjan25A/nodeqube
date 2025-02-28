@@ -9,10 +9,7 @@ const aboutUsFirstSectionTelefon: React.FC = () =>{
     return (
         <div className='container first-container-aboutus'>
             <div className='title-about'>
-                <h2>We aspire to help</h2> 
-                <span>1,000 businesses</span> 
-                <h2>improve the lives of</h2> 
-                <span>1 Billion people</span>
+                <h2>Drive growth with smart <span>design</span>, sleek <span>apps</span>, and strategic <span>marketing.</span></h2> 
             </div>
         </div>
     );

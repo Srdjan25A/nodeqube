@@ -1,6 +1,6 @@
 import React from 'react';
 //import './about.css';
-import AboutUsFirst from '../components/aboutUsFirst/aboutUsFirst';
+import AboutUsFirst from '../components/aboutUsFirst/AboutUsFirst';
 import FooterSection from '../components/Footer/Footer';
 import RelatedWork from '../components/Related-work/Related-work';
 import OurMission from '../components/OurMission/OurMission';

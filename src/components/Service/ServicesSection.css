@@ -1,6 +1,11 @@
+@media (max-width:768px){
+  .div-service{
+    display: none !important;
+  }
+}
 .div-service {
     padding-left: 50px;
-  
+    display: block;
   }
   
   .title-services {

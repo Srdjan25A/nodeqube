@@ -1,0 +1,46 @@
+.container-accordion-telefon{
+    display: none;
+}
+@media (max-width:768px){
+    .container-accordion-telefon{
+        display: block !important;
+        text-align: center;
+        margin-top: 44px;
+        margin-bottom: 180px;
+    }
+    .container-accordion-telefon h3{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36.46px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #DDEFD8;
+        margin-bottom: 52px;
+    }
+    .container-accordion-telefon button{
+        margin: 0 auto !important;
+    }
+    .accordion-container-telefon{
+        background-image: url('public/Vector 49.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .accordion-title{
+        width: 86%;
+        margin-left: 20px;
+        text-align: left !important;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36.46px;
+        letter-spacing: 0%;
+        margin-bottom: 32px;
+        padding: 0;
+    }
+    .accordion{
+        margin-top: 180px;
+        width: 90%;
+    }
+}

@@ -7,8 +7,8 @@ const OurMissionSectionTelefon: React.FC = () =>{
            <div className='row'>
                 <div className='col-12 content-mission-telefon'>
                         <h2>Our Mission</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur. Tortor gravida ut venenatis leo pharetra pretium ante. Amet feugiat mauris facilisi pulvinar. Tortor purus odio nunc mi vitae nam. At vel lectus eget blandit. Viverra pellentesque mollis proin lectus nibh sagittis est ac gravida. Nulla tincidunt aliquam sit porta interdum. Praesent sapien at ipsum sed.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur. Tortor gravida ut venenatis leo pharetra pretium ante. Amet feugiat mauris facilisi pulvinar. Tortor purus odio nunc mi vitae nam. At vel lectus eget blandit. Viverra pellentesque mollis proin lectus nibh sagittis est ac gravida. Nulla tincidunt aliquam sit porta interdum. Praesent sapien at ipsum sed.</p>
+                        <p>At Node Qube, we create high-impact digital experiences that drive growth, engagement, and brand recognition. With a user-first approach, strategic messaging, and cutting-edge technology, we craft visually compelling and highly functional digital solutions.</p>
+                        <p>Specializing in UX/UI design, web development, branding, and digital marketing, we blend strategy, innovation, and data-driven insights to enhance interactions and increase conversions. Whether it’s a website, mobile app, or marketing campaign, we deliver optimized, results-driven solutions that elevate your brand and ensure long-term success.</p>
                 </div>
            </div>
            <div className='row'>

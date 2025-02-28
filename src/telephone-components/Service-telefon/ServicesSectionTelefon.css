@@ -1,0 +1,49 @@
+@media (max-width:768px){
+    .servicesTelefon{
+        display: block !important;
+    }
+    .services-row{
+        margin-bottom: 14px;
+    }
+    .servicesTelefon h2{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 57.29px;
+        letter-spacing: 0%;
+        color: white;
+        text-align: left;
+        margin-top: 68px;
+        margin-bottom: 35px;
+    }
+    .services-card-container-main {
+        background-color: #38413c;
+        border-radius: 15px;
+        color: white;
+        padding: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.83px;
+        letter-spacing: 0%;
+      }
+      
+      .services-card-container-image {
+        display: flex !important;
+        justify-content: space-between !important;
+        margin-bottom: 90px !important;
+      }
+      
+      .uiux {
+        width: 24px !important;
+        height: 24px !important;
+      }
+      .external{
+            width: 14px;
+            height: 14px;
+      }
+      .services-card-text{
+        margin: 0;
+      }
+}
+.servicesTelefon{
+    display: none;
+}

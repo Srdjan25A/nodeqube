@@ -1,0 +1,28 @@
+.animation-telefon-container{
+    display: none;
+}
+@media (max-width:768px){
+.animation-telefon-container{
+        display: block;
+}
+.animation-text-telefon-content{
+    display: flex;
+    margin-bottom: 12px;
+    margin-top: 41px;
+}
+.logo-telefon-tekst{
+    margin-right: 16px;
+}
+.logo-telefon{
+    margin-right: 16px;
+}
+.animation-content-text-telefon, .animation-content-telefon{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28.6px;
+    letter-spacing: 0%;
+    color: #A6B5A4;
+    text-transform: uppercase;
+    margin:0;
+}
+}

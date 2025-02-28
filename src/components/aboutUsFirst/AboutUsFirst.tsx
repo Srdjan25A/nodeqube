@@ -7,11 +7,9 @@ const AboutUsFirst: React.FC = () => {
     return(
         <div className='main-aspire-container container'>
             <div className='aspire-container'>
-                <p className='aspire-title'>We aspire to help</p>
-                <span>1,000s businesses <span className='aspire-title'>improve</span></span> 
-                <p className='aspire-title'> the lives of <span>1 Billion people</span></p>
-                 
-                
+                <p className='aspire-title'>Drive growth with smart</p>
+                <span>design, <span className='aspire-title'>sleek</span> apps, <span className='aspire-title'>and</span></span> 
+                <p className='aspire-title'> strategic <span> marketing</span></p> 
             </div>
             <Navbar/>
         </div>

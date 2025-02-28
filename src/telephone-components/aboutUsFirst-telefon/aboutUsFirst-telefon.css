@@ -3,15 +3,12 @@
     font-size: 36px;
     font-weight: 800;
     line-height: 46.87px;
-    text-align: left;
+   
     color: white;
 }
-.first-container-aboutus span{
+.first-container-aboutus h2 span{
     color: #98D28B;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 46.87px;
-    text-align: left;
+
 }
 .first-container-aboutus{
     display: none;
@@ -20,6 +17,6 @@
     .first-container-aboutus{
         display: block;
         margin-top: 72px;
-        margin-bottom: 107px;
+        margin-bottom: 180px;
     }
 }

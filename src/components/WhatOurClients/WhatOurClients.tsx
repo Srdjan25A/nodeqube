@@ -13,7 +13,7 @@ import './WhatOurClients.css';
 
 const WhatOurClients: React.FC = () => {
     return(
-        <div className='container'>
+        <div className='container whatOurClients-container'>
             <div className='row row-what'>
                 <div className='col-md-6 first-column-what'>
                     <h2 className='what-our-title'>What Our Clients Say About Us?</h2>

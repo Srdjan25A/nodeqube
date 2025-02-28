@@ -14,9 +14,9 @@
     background-size: 100% 100%;
     width: 100%;
     height: 100vh;
-    display: flex;  /* Aktivira Flexbox */
-    justify-content: center;  /* Horizontalno centriranje */
-    align-items: center;  /* Vertikalno centriranje */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     padding-left: 88px;
 }
 .aspire-container{

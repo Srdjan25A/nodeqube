@@ -1,0 +1,38 @@
+.whatOurClientsTelefon-container{
+    display: none;
+}
+@media (max-width:768px){
+    .whatOurClientsTelefon-container{
+            display: block !important;
+            margin-bottom: 120px;
+    }
+    .whatOurClientsTelefon-container h2{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 46.87px;
+        letter-spacing: 0%;
+        color: white;
+        
+    }
+    .testimonial-card-telefon{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: 460px;
+    width: 360px;
+    }
+    .testimonial-card-telefon p {  
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29.34px;
+        text-align: left;
+        color: #272D2A;
+      }
+      .testimonial-card-telefon h4 {
+        font-size: 14px;
+        color: #666;
+        margin-top: 10px;
+      }
+}

@@ -1,0 +1,91 @@
+.not-seeing{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    color: #DDEFD8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 52px;
+    margin-top: 110px;
+}
+.container-button-accordion{
+    text-align: center;
+    margin-bottom: 220px;
+}
+.custom-button{
+
+    border-radius: 41px;
+    background-color: #98D28B;
+    color:#38413C;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+.accordion-container{
+    background-image: url('public/Vector 48.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 100%;
+    /*
+    display: flex; 
+    justify-content: center; 
+    align-items: center; */
+}
+.accordion-title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    color: #38413C;
+    padding-bottom: 48px;
+    width: 50%;
+}
+.accordion-button::after{
+    background-image: url('public/FAQ Icon Container.png');
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url('public/FAQ Icon Container.png');
+}
+.accordion{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.accordion-button{
+    background-color: #DDEFD8 !important;
+    color: black;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35.1px;
+}
+.accordion-button:not(.collapsed){
+    background-color: white;
+    color: black;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-item{
+    border-bottom: 1px solid #A6B5A4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.accordion-body{
+    background-color: #DDEFD8;
+}
+@media (max-width: 768px){
+    .full-accordion-container{
+        display: none;
+    }
+}

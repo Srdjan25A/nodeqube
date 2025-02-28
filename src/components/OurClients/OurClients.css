@@ -13,3 +13,8 @@
   .ouClients img{
     margin-bottom: 220px;
   }
+  @media (max-width: 768px){
+    .ourClients{
+      display: none;
+    }
+  }

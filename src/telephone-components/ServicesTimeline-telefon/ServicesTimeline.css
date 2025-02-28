@@ -1,0 +1,50 @@
+.services-timeline-telefon{
+    display: none;
+}
+@media (max-width: 768px){
+    .services-timeline-telefon{
+        display: block !important;
+    }
+    .column-timeline{
+        margin-bottom: 120px;
+    }
+    .services-timeline-telefon h2{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 46.87px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: white;
+        margin-bottom: 32px;
+    }
+    .column-services-timeline{
+        text-align: center;
+        width: 100%;
+    }
+    .column-services-timeline-title{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28.64px;
+        letter-spacing: 0%;
+        color:#DDEFD8;
+        text-align: left;
+        margin-top: 12px;
+    }
+    .column-services-timeline-text{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.8px;
+        letter-spacing: 0%;
+        color: white;
+        text-align: left;
+    }
+    .column-services-timeline-text1{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.8px;
+        letter-spacing: 0%;
+        color: white;
+        text-align: left;
+        margin-bottom: 2px;
+    }
+}

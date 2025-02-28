@@ -1,0 +1,40 @@
+@media (max-width: 768px){
+.Lets-talk1 p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 35.1px;
+    letter-spacing: 0%;
+    color: white;
+}
+.Lets-talk1 h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41.6px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+    color: white;
+}
+.Lets-talk1{
+    width: 100%;
+    display: block !important;
+    text-align: center;
+    margin-top: 50px;
+}
+.Lets-talk1 button{
+    border-radius: 41px;
+    background-color: #98D28B;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+}
+.Lets-talk1{
+    display: none;
+}

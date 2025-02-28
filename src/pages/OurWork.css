@@ -1,0 +1,50 @@
+.ourwork-cards{
+    margin-top: 110px;
+}
+.card-work{
+    padding: 24px 16px;
+    border-radius: 20px;
+}
+.card-title-work {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35.1px;
+    letter-spacing: 0%;
+    margin-bottom: 32px;
+}
+.card-work .list-group{
+    border-bottom: 0px;
+    border-top: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+.list-group-item{
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 0.5px solid #A6B5A4 !important;
+}
+.list-group-item:last-child {
+    border-bottom: none !important;
+}
+.button-item-card{
+    border: 1px solid white;
+    border-radius: 42px;
+    background-color: inherit;
+    margin-top:20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.2px;
+    letter-spacing: 0%;
+}
+.checkboxName{
+    background-color: #A6B5A4 !important;
+    width: 16px;
+    height: 16px;
+}
+.button-item-card:hover{
+    background-color:#696969
+    ;
+    border: 1px solid white;
+}
