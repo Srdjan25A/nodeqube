@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import { Card, ListGroup, Button } from "react-bootstrap";
 import './OurWork.css';
 import DeltaHoldingModal from "../modalComponents/DeltaHoldingModal/DeltaHoldingModal";
-
+import FooterSection from '../components/Footer/Footer';
 import ProjectCard from '../project-components/ProjectCard/ProjectCard';
-
+import Navbar from '../components/Navbar/Navbar';
 const projects = [
     { title: "Delta Holding", category: "website", imageUrl: "/DeltaHolding2.png", backgroundImage:"/Background-card.png" },
     { title: "Telekom Serbia", category: "website", imageUrl: "/TelekomSerbia2.png", backgroundImage:"/Background-card.png"  },
@@ -52,7 +54,26 @@ const OurWork: React.FC = () => {
                         </div>
                     </div>
                 </div>
+                <Navbar/>
             </div>
+            <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div className="modal-dialog">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h1 className="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div className="modal-body">
+        ...
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" className="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <FooterSection/>
         </section>
     );
 };

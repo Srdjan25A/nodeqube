@@ -1,5 +1,7 @@
 import React from 'react';
 import {Card, Badge, CardBody} from 'react-bootstrap';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import './ProjectCard.css';
 interface ProjectCardProps{
     title: string;
@@ -9,7 +11,7 @@ interface ProjectCardProps{
 }
 const ProjectCard: React.FC<ProjectCardProps> =({title, category, imageUrl, backgroundImage}) => {
     return(
-        <div className="project-card-wrapper">
+        <div className="project-card-wrapper" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
            <Card className='text-white border-0' style={{ 
                                                                 borderRadius: "25px",
                                                                 backgroundImage: `url(${backgroundImage})`, 

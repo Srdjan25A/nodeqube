@@ -32,3 +32,7 @@
     cursor: pointer;
     
 }
+.link-page{
+    text-decoration: none;
+    color: white;
+}
