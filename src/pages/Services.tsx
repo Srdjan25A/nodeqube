@@ -5,9 +5,9 @@ import ServicesTimeline from '../components/ServicesTimeline/ServicesTimeline';
 import ServicesTimelineTelefon from '../telephone-components/ServicesTimeline-telefon/ServicesTimeline';
 import Accordionquestions from '../components/accordionQuestions/Accordionquestions';
 import AccordionQuestionTelefon from '../telephone-components/AccordionQuestions-telefon/AccordionQuestionTelefon';
-import ServicesUsFirst from '../telephone-components/servicesUsFirst-telefon/servicesUsFirst';
 import FooterSection from '../components/Footer/Footer';
 import FooterSectiontelefon from '../telephone-components/Footer-telefon/FooterSection-telefon';
+import ServicesUsFirst from "../telephone-components/servicesUsFirst-telefon/ServicesUsFirst";
 
 const Services: React.FC = () => {
     return (
