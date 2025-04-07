@@ -1,0 +1,21 @@
+.title-card{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35.1px;
+    letter-spacing: 0%;
+    color: white !important;
+    margin-top: 16px;
+}
+.badge-category{
+    background-color: #A6B5A4 !important;
+    border-radius: 21px !important;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 0%;
+    color:#272D2A;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 16px;
+    margin-right: 16px;
+}

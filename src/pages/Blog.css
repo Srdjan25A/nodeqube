@@ -1,0 +1,172 @@
+.ourwork-cards{
+    margin-top: 110px;
+}
+.card-work{
+    padding: 24px 16px;
+    border-radius: 20px;
+}
+.card-title-work {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35.1px;
+    letter-spacing: 0%;
+    margin-bottom: 32px;
+}
+.card-work .list-group{
+    border-bottom: 0px;
+    border-top: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+.list-group-item{
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 0.5px solid #A6B5A4 !important;
+}
+.list-group-item:last-child {
+    border-bottom: none !important;
+}
+.button-item-card{
+    border: 1px solid white;
+    border-radius: 42px;
+    background-color: inherit;
+    margin-top:20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.2px;
+    letter-spacing: 0%;
+}
+.checkboxName{
+    background-color: #A6B5A4 !important;
+    width: 16px;
+    height: 16px;
+}
+.button-item-card:hover{
+    background-color:#696969
+    ;
+    border: 1px solid white;
+}
+
+.get-nl {
+    background-image: url("/public/Vector 46.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 80px 0 200px;
+    background-position: center;
+}
+
+.get-nl h3 {
+    text-align: center;
+    font-family: 'DM Sans';
+    font-weight: 900;
+    font-size: 60px;
+    leading-trim: Cap height;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.featured-blogs h1 {
+    font-family: DM Sans;
+    font-weight: 900;
+    font-size: 60px;
+    leading-trim: Cap height;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.featured-blogs a {
+    text-decoration: none;
+}
+
+.featured-blogs p {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 27px;
+    leading-trim: Cap height;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.featured-blogs span {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 12px;
+    leading-trim: Cap height;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
+
+.single-featured-blog {
+    border-bottom: 1px solid #A6B5A4;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.single-featured-blog:last-child {
+    border: none;
+}
+
+.badge-category.badge-category-blog {
+    color: #98D28B !important;
+    background-color: #98D28B33 !important;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 12px;
+    leading-trim: Cap height;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+
+span.time {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 12px;
+    leading-trim: Cap height;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
+
+span.time img {
+    padding-right: 7px;
+    padding-left: 20px;
+}
+
+.p-blog-title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 27px;
+    leading-trim: Cap height;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: white;
+    margin-top: 15px;
+}
+
+.featured-blogs {
+    padding-left: 50px;
+}
+
+.featured-blog {
+    padding-right: 50px;
+    margin-bottom: 100px;
+}
+
+.featured-blog > img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.rounded, .text-white.border-0.card {
+    border-radius: 25px;
+}
