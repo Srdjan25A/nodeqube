@@ -36,30 +36,31 @@ const WhatOurClients: React.FC = () => {
                     <SwiperSlide>
                         <div className="testimonial-card">
                             <p>
-                                "Our long-term collaboration with WCS has primarily brought us peace of mind regarding IT. Reliability and professionalism are the key reasons why we chose WCS. The challenges we encountered while creating and enhancing an interactive astrology site, which I can say is also demanding from a programming perspective, were resolved in cooperation with their team, leading to the creation of a platform we are proud of."
+                                Our long-term collaboration with WCS has primarily brought us peace of mind regarding IT. Reliability and professionalism are the key reasons why we chose WCS. The challenges we encountered while creating and enhancing an interactive astrology site, which I can say is also demanding from a programming perspective, were resolved in cooperation with their team, leading to the creation of a platform we are proud of.
                             </p>
-                            <h4>Ivica Dimitrijevic, Owner of</h4>
-                            <h4>Premier Style</h4>
+                            <div>
+                                <h4 className='first-h4-testimonials'>Ivica Dimitrijevic, Owner of</h4>
+                                <h4 className='premier-style'>Premier Style</h4>
+                            </div>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className="testimonial-card">
                             <p>
-                                "Our long-term collaboration with WCS has primarily brought us peace of mind regarding IT. Reliability and professionalism are the key reasons why we chose WCS. The challenges we encountered while creating and enhancing an interactive astrology site, which I can say is also demanding from a programming perspective, were resolved in cooperation with their team, leading to the creation of a platform we are proud of."
+                            Node Qube took our online presence to the next level with a beautifully designed website, effective social media management, and impactful campaigns. Their content and blog strategy positioned us as an industry authority, while their marketing efforts brought real business growth. Their seamless execution, creativity, and expertise ensured outstanding results. We’re grateful to have such a dedicated and reliable digital partner.
                             </p>
-                            <h4>Ivica Dimitrijevic, Owner of</h4>
-                            <h4>Premier Style</h4>
+                            <h4 className='first-h4-testimonials'>Relaksacija Beograd</h4>
+                     
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className="testimonial-card">
                             <p>
-                                "Our long-term collaboration with WCS has primarily brought us peace of mind regarding IT. Reliability and professionalism are the key reasons why we chose WCS. The challenges we encountered while creating and enhancing an interactive astrology site, which I can say is also demanding from a programming perspective, were resolved in cooperation with their team, leading to the creation of a platform we are proud of."
+                            As a new rental property, we needed a strong online presence, and Node Qube delivered. They created a website that reflects our retreat’s essence, manage social media with engaging content, and run targeted campaigns to reach the right audience. Their storytelling through blogs and visuals brings the Tara experience to life, helping us stand out. We highly recommend them to anyone looking to grow their brand online.
                             </p>
-                            <h4>Ivica Dimitrijevic, Owner of</h4>
-                            <h4>Premier Style</h4>
+                            <h4 className='first-h4-testimonials'>Tara Rustic Retreat</h4>
                         </div>
                     </SwiperSlide>
                     </Swiper>

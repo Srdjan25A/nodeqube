@@ -4,10 +4,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import { Card, ListGroup, Button } from "react-bootstrap";
 import './OurWork.css';
-import DeltaHoldingModal from "../modalComponents/DeltaHoldingModal/DeltaHoldingModal";
 import FooterSection from '../components/Footer/Footer';
 import ProjectCard from '../project-components/ProjectCard/ProjectCard';
 import Navbar from '../components/Navbar/Navbar';
+import DeltaHoldingModal from '../modalComponents/DeltaHoldingModal/DeltaHoldingModal';
+import TelekomSerbiaModal  from '../modalComponents/TelekomSerbiaModal/TelekomSerbiaModal';
+import SunetiModal from '../modalComponents/SunetiModal/SunetiModal';
 const projects = [
     { title: "Delta Holding", category: "website", imageUrl: "/DeltaHolding2.png", backgroundImage:"/Background-card.png" },
     { title: "Telekom Serbia", category: "website", imageUrl: "/TelekomSerbia2.png", backgroundImage:"/Background-card.png"  },
@@ -25,8 +27,10 @@ const projects = [
 ];
   
 const OurWork: React.FC = () => {
-   
+    
     return (
+      <>      
+        <Navbar/>
         <section className='ourWork mb-5'>
             <div className='container ourwork-cards'>
                 <div className='row'>
@@ -48,33 +52,31 @@ const OurWork: React.FC = () => {
                         <div className='row'>
                             {projects.map((project, index)=>(
                                 <div className='col-md-6 mb-3' key={index}>
-                                    <ProjectCard {...project}/>
+                                      <ProjectCard {...project} 
+                                                   modalTarget={
+                                                    project.title === "Delta Holding"
+                                                        ? "#deltaHoldingModal"
+                                                        : project.title === "Telekom Serbia"
+                                                        ? "#telekomSerbiaModal"
+                                                        :project.title === "Suneti"
+                                                        ? "#sunetiModal"
+                                                        : undefined
+                                                }
+                                      />
+                                    
                                 </div>
                             ))}
                         </div>
                     </div>
                 </div>
-                <Navbar/>
+                <DeltaHoldingModal/>
+                <TelekomSerbiaModal/>
+                <SunetiModal/>        
             </div>
-            <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div className="modal-dialog">
-    <div className="modal-content">
-      <div className="modal-header">
-        <h1 className="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div className="modal-body">
-        ...
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" className="btn btn-primary">Understood</button>
-      </div>
-    </div>
-  </div>
-</div>
             <FooterSection/>
         </section>
+        </>
+
     );
 };
 export default OurWork;

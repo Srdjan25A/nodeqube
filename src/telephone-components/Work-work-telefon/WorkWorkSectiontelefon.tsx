@@ -25,7 +25,7 @@ const WorkWorkSection: React.FC = () =>{
                 <div className='col-12'>
                     <div className='container-related'>
                         <h2>Work</h2>
-                        <img src="TagContainer1.png" alt="number"  ></img>
+                        <img src="TagContainer1.png" alt="number" ></img>
                     </div>
 
                     <p className="text-work-content">A selection of our crafted work, built from scratch by  our talented team.</p>
