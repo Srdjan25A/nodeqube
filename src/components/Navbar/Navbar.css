@@ -11,7 +11,7 @@
     z-index: 1000;
     left: 50%;
     transform: translateX(-50%); /*vrati ga 50posto*/
-  
+
 }
 .navbar ul{
     display:flex;
@@ -30,9 +30,51 @@
     font-weight: 600;
     line-height: 18.2px;
     cursor: pointer;
-    
+
 }
 .link-page{
     text-decoration: none;
     color: white;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    max-width: 1320px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.nav-time {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-time h4 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 42px;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.nav-time p {
+    font-family: Inter;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    leading-trim: Cap height;
+    line-height: 100% !important;
+    letter-spacing: 0%;
+    color: white;
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 5px;
+    font-style: normal !important;
 }

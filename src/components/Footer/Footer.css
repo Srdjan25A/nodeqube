@@ -1,13 +1,13 @@
 .main-footer-content {
-    display: flex; 
-    width: 100%; 
-    overflow: hidden; 
+    display: flex;
+    width: 100%;
+    overflow: hidden;
     margin-top: 220px;
     margin-bottom: 50px;
     text-align: center;
   }
   .main-footer-content span {
-    white-space: nowrap; 
+    white-space: nowrap;
     text-align: center;
     color: white;
     font-family: Bebas Neue;
@@ -16,39 +16,40 @@
     line-height: 208px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    animation: marquee 10s linear infinite; 
+    animation: marquee 10s linear infinite;
   }
-  
+
   @keyframes marquee {
     0% {
-      transform: translateX(0); 
+      transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%); 
+      transform: translateX(-100%);
     }
   }
-  
+
   .footer{
     background-image: url('public/footer-image.png');
     background-size: cover;
     background-position: bottom center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     height: 100vh;
     width:100%;
     overflow-x: hidden;
-    border-top-left-radius: 25px; 
-    border-top-right-radius: 25px; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     display: flex;
-    flex-direction: column; 
-    justify-content: space-between; 
-    align-items: center; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
   }
-  
+
   .footer-content {
-    flex: 1; 
+    flex: 1;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
   }
   .footer-title{
     font-size: 90px;
@@ -61,40 +62,40 @@
     text-decoration-skip-ink: none;
     color: white;
     text-align: center;
-    
+
   }
   .footer-bottom {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 20px;
     color: white;
     font-size: 0.9rem;
-   
+
   }
-  
+
   .footer-left {
     font-size: 12px;
     font-weight: 400;
     line-height: 15.6px;
-   
+
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  
+
   .footer-right {
-   
+
     color: white;
-   
+
     font-size: 12px;
     font-weight: 700;
     line-height: 15.6px;
-   
-  
+
+
   }
   .footer-right2{
-  
+
     color: white;
     font-size: 12px;
     font-weight: 400;
@@ -103,9 +104,9 @@
     margin-left: 20px;
   }
   .footer-right:hover {
-    color: #ccc; 
+    color: #ccc;
   }
-  
+
   .linkin{
     margin-left: 12px;
     margin-right: 12px;
