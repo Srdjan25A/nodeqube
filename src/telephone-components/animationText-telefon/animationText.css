@@ -4,6 +4,7 @@
 @media (max-width:768px){
 .animation-telefon-container{
         display: block;
+        margin-top: 118px;
 }
 .animation-text-telefon-content{
     display: flex;

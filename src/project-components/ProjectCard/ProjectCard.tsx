@@ -8,10 +8,14 @@ interface ProjectCardProps{
     category: string;
     imageUrl: string;
     backgroundImage: string;
+    /* */
+    modalTarget?: string;
 }
-const ProjectCard: React.FC<ProjectCardProps> =({title, category, imageUrl, backgroundImage}) => {
+const ProjectCard: React.FC<ProjectCardProps> =({title, category, imageUrl, backgroundImage, modalTarget}) => {
     return(
-        <div className="project-card-wrapper" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <div className="project-card-wrapper"  {...(modalTarget
+            ? { 'data-bs-toggle': 'modal', 'data-bs-target': modalTarget } // <-- Ako postoji modalTarget, dodeljujemo data-bs-toggle i data-bs-target
+            : {})}>
            <Card className='text-white border-0' style={{ 
                                                                 borderRadius: "25px",
                                                                 backgroundImage: `url(${backgroundImage})`, 

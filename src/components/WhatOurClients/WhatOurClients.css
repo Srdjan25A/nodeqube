@@ -1,3 +1,17 @@
+.whatOurClients-container{
+  background-image: url('public/Background Frame.png');
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 220px;
+}
+.row-what{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
 .what-our-title{
     font-size: 60px;
     font-weight: 900;
@@ -9,10 +23,7 @@
     justify-content: center;
     align-items: center;
 }
-.row-what{
-    padding: 62px 0;
-    margin-bottom:220px;
-}
+
 .whatour-swiper .swiper-pagination-bullet{
         width: 10px !important;
         height: 10px !important;
@@ -31,6 +42,12 @@
     text-align: left;
     height: auto;
     width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px; /* ili neka određena visina ako želiš */
+    box-sizing: border-box;
+
     margin: 0 auto;
     margin-bottom: 32px;
   }
@@ -42,12 +59,22 @@
     line-height: 29.34px;
     text-align: left;
     color: #272D2A;
-    
+    opacity: 70%;
+
   }
-  
+  .premier-style{
+    font-weight: bold !important;
+  }
+  .first-h4-testimonials{
+    border-top: 1px solid #1D1D1D;
+    padding-top: 12px;
+  }
   .testimonial-card h4 {
     font-size: 14px;
-    color: #666;
+    color: #272D2A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
     margin-top: 10px;
   }
   
@@ -58,6 +85,11 @@
   .swiper-button-next, .swiper-button-prev {
     color: #fff !important;
   }
+  .swiper-slide-shadow,
+.swiper-slide-shadow-cards {
+  display: none !important;
+}
+  
   @media (max-width:768px){
     .whatOurClients-container{
       display: none;

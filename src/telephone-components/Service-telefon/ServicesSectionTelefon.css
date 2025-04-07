@@ -12,7 +12,7 @@
         letter-spacing: 0%;
         color: white;
         text-align: left;
-        margin-top: 68px;
+        margin-top: 180px;
         margin-bottom: 35px;
     }
     .services-card-container-main {
@@ -23,7 +23,10 @@
         font-weight: 600;
         font-size: 16px;
         line-height: 20.83px;
-        letter-spacing: 0%;
+        height: 180px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
       }
       
       .services-card-container-image {
@@ -42,6 +45,9 @@
       }
       .services-card-text{
         margin: 0;
+      }
+      .width-text-card{
+        width: 98%;
       }
 }
 .servicesTelefon{
