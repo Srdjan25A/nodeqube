@@ -4,7 +4,7 @@
 @media (max-width:768px){
     .whatOurClientsTelefon-container{
             display: block !important;
-            margin-bottom: 120px;
+            margin-bottom: 180px;
     }
     .whatOurClientsTelefon-container h2{
         font-weight: 800;
@@ -12,6 +12,7 @@
         line-height: 46.87px;
         letter-spacing: 0%;
         color: white;
+        margin-bottom: 32px;
         
     }
     .testimonial-card-telefon{
@@ -20,8 +21,12 @@
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
-    
     width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 500px; 
     }
     .testimonial-card-telefon p {  
         font-size: 18px;

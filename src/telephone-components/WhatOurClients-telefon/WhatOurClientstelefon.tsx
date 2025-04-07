@@ -36,8 +36,10 @@ const WhatOurClientsTelefon: React.FC = () => {
                             <p>
                                 "Our long-term collaboration with WCS has primarily brought us peace of mind regarding IT. Reliability and professionalism are the key reasons why we chose WCS. The challenges we encountered while creating and enhancing an interactive astrology site, which I can say is also demanding from a programming perspective, were resolved in cooperation with their team, leading to the creation of a platform we are proud of."
                             </p>
-                            <h4 className='first-h4-testimonials'>Ivica Dimitrijevic, Owner of</h4>
-                            <h4 className='premier-style'>Premier Style</h4>
+                            <div>
+                                <h4 className='first-h4-testimonials'>Ivica Dimitrijevic, Owner of</h4>
+                                <h4 className='premier-style'>Premier Style</h4>
+                            </div>
                         </div>
                     </SwiperSlide>
 

@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 500px; /* ili neka određena visina ako želiš */
+    height: 500px;
     box-sizing: border-box;
 
     margin: 0 auto;
