@@ -1,0 +1,57 @@
+.contact-telefon{
+    display: none;
+}
+@media (max-width: 768px){
+    .contact-telefon{
+        margin-top: 80px !important;
+        text-align: center;
+        display: block !important;
+    }
+    .contact-telefon-content h2{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 100%;
+        text-align: center;
+        color: white;
+    }
+    .contact-telefon-content p{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 163%;
+        text-align: center;
+        color: white;
+        margin-top: 24px;
+    }
+    .image-logo-contact{
+        margin-top: 16px;
+    }
+    .mail-telefon-contact h3{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 100%;
+        text-align: center;
+        color: #272D2A;
+        width: 96%;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+    .mail-telefon-contact{
+        background-color: #DDEFD8;
+        padding: 48px 0;
+        margin-top: 180px;
+    }
+    .mail-telefon-contact button{
+        background-color: #98D28B;
+        border-radius: 41px;
+        border: none;
+        padding: 14px 0;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 130%;
+        width: 92%;
+        color: #272D2A;
+    }
+    .mail-telefon-contact img{
+        margin-right: 8px;
+    }
+}

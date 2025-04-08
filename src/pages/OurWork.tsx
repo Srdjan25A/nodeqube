@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Card, ListGroup, Button } from "react-bootstrap";
 import './OurWork.css';
 import FooterSection from '../components/Footer/Footer';
+import FooterSectiontelefon from '../telephone-components/Footer-telefon/FooterSection-telefon';
 import ProjectCard from '../project-components/ProjectCard/ProjectCard';
 import Navbar from '../components/Navbar/Navbar';
 import DeltaHoldingModal from '../modalComponents/DeltaHoldingModal/DeltaHoldingModal';
@@ -33,8 +34,9 @@ const projects = [
 
 ];
   
+
+
 const OurWork: React.FC = () => {
-    
     return (
       <>      
         <Navbar/>
@@ -42,18 +44,43 @@ const OurWork: React.FC = () => {
             <div className='container ourwork-cards'>
                 <div className='row'>
                     <div className='col-md-4'>
-                      <Card className="card-work" style={{ width: "353px", background: "#38413C", color: "white" }}>
+                      <Card className="card-work d-none d-md-block" style={{ width: "353px", background: "#38413C", color: "white" }}>
                          <Card.Title className="card-title-work">Project Categories:</Card.Title>
                          <ListGroup variant="flush">
                             {["All projects", "Websites", "Web Apps", "Mobile Apps", "E-commerce", "Branding"].map((category, index) => (
-                                <ListGroup.Item key={index} className="list-group-item d-flex justify-content-between align-items-center bg-transparent text-white border-0">
+                                <ListGroup.Item key={index} className="list-desktop-style-item list-group-item d-flex justify-content-between align-items-center bg-transparent text-white border-0">
                                 {category}
-                                <input type="checkbox" className="checkboxName"/>
+                                <input type="checkbox" className="checkboxName" id={category}/>
                                 </ListGroup.Item>
                             ))}
                          </ListGroup>
-                        <Button className="button-item-card w-100">Reset Filters</Button>
+                        <Button type="button" className="button-item-card w-100">Apply Filters</Button>
                       </Card>
+                      {/* Mobile prikaz filtera */}
+                      <div className="accordion accordion-2 accordion-flush d-block d-md-none" id="accordionFlushExample">
+                        <div className="accordion-item-2 accordion-item">
+                            <h2 className="accordion-header accordion-header-2">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Project Categories
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" className="accordion-collapse accordion-collapse-2 collapse" data-bs-parent="#accordionFlushExample">
+                                <div className="accordion-body accordion-body-2">
+                                    <ListGroup variant="flush">
+                                        {["All projects", "Websites", "Web Apps", "Mobile Apps", "E-commerce", "Branding"].map((category, index) => (
+                                            <ListGroup.Item key={index} className="list-our-style list-group-item d-flex justify-content-between align-items-center bg-transparent text-white border-0">
+                                            {category}
+                                            <input type="checkbox" className="checkboxName" id={category}/>
+                                            </ListGroup.Item>
+                                        ))}
+                                    </ListGroup>
+                                    <Button type="submit" className="button-item-card w-100">Apply Filters</Button>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                    
+
                     </div>
                     <div className='col-md-8'>
                         <div className='row'>
@@ -102,6 +129,7 @@ const OurWork: React.FC = () => {
                 <GoStudyModal/>
             </div>
             <FooterSection/>
+            <FooterSectiontelefon/>
         </section>
         </>
 
