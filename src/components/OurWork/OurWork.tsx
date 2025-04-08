@@ -1,16 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'swiper/css'
-import "swiper/css/autoplay";
-import { Autoplay } from "swiper/modules";
-import { Navigation, Pagination, EffectCoverflow } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/effect-coverflow";
 import React from 'react';
-import {Swiper, SwiperSlide} from 'swiper/react';
 import './OurWork.css';
-import WhatOurClients from '../WhatOurClients/WhatOurClients';
 
 const OurWork: React.FC = () => {
     return(

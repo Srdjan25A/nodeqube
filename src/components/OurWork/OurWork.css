@@ -1,3 +1,28 @@
+@media (max-width: 768px){
+  .timeline-point{
+    left: 0 !important;
+    width: 117px !important;
+    height: 167px !important;
+  }
+  .vertical-timeline::before{
+    left: 54px !important;
+    top: 8px !important;
+  }
+  .timeline-date{
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    line-height: 100% !important;
+  }
+  .timeline-description{
+    width: 100% !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 130% !important;
+  }
+  .timeline-content{
+    margin-left: 146px !important;
+  }
+}
 .title-timeline{
     font-size: 60px;
     font-weight: 900;
