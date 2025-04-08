@@ -10,6 +10,13 @@ import Navbar from '../components/Navbar/Navbar';
 import DeltaHoldingModal from '../modalComponents/DeltaHoldingModal/DeltaHoldingModal';
 import TelekomSerbiaModal  from '../modalComponents/TelekomSerbiaModal/TelekomSerbiaModal';
 import SunetiModal from '../modalComponents/SunetiModal/SunetiModal';
+import PremierStyleModal from '../modalComponents/PremierStyleModal/PremierStyleModal';
+import GoinModal from '../modalComponents/GoinModal/GoinModal';
+import MixalModal from '../modalComponents/Mixal/MixalModal';
+import HemaxModal from '../modalComponents/HemaxModal/HemaxModal';
+import MonaskiSaborModal from '../modalComponents/MonaskiSaborModal/MonaskiSaborModal';
+import EkonomskoNovinarstvoModal from '../modalComponents/EkonomskoNovinarstvoModal/EkonomskoNovinarstvoModal';
+import GoStudyModal from '../modalComponents/GoStudyModal/GoStudyModal';
 const projects = [
     { title: "Delta Holding", category: "website", imageUrl: "/DeltaHolding2.png", backgroundImage:"/Background-card.png" },
     { title: "Telekom Serbia", category: "website", imageUrl: "/TelekomSerbia2.png", backgroundImage:"/Background-card.png"  },
@@ -60,6 +67,20 @@ const OurWork: React.FC = () => {
                                                         ? "#telekomSerbiaModal"
                                                         :project.title === "Suneti"
                                                         ? "#sunetiModal"
+                                                        :project.title === "Premier Style"
+                                                        ? "#premierStyleModal"
+                                                        :project.title === "Goin'"
+                                                        ? "#goinModal"
+                                                        :project.title === "Mixal"
+                                                        ? "#mixalModal"
+                                                        :project.title === "Humax"
+                                                        ? "#hemaxModal"
+                                                        :project.title === "Monaski Sabor"
+                                                        ? "#monaskiSaborModal"
+                                                        :project.title === "Ekonomsko Novinarstvo"
+                                                        ? "#ekonomskoModal"
+                                                        :project.title === "Gostudy"
+                                                        ? "#goStudyModal"
                                                         : undefined
                                                 }
                                       />
@@ -71,7 +92,14 @@ const OurWork: React.FC = () => {
                 </div>
                 <DeltaHoldingModal/>
                 <TelekomSerbiaModal/>
-                <SunetiModal/>        
+                <SunetiModal/>
+                <PremierStyleModal/>
+                <GoinModal/>
+                <MixalModal/>        
+                <HemaxModal/>
+                <MonaskiSaborModal/>
+                <EkonomskoNovinarstvoModal/>
+                <GoStudyModal/>
             </div>
             <FooterSection/>
         </section>

@@ -1,5 +1,6 @@
 .ourClients{
     text-align: center;
+    
   }
   .title-ourClients{
       color: white;
@@ -12,6 +13,30 @@
   }
   .ouClients img{
     margin-bottom: 220px;
+  }
+  .sponsor-strip-wrapper {
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  .sponsor-track {
+    animation: scroll-left 10s linear infinite;
+    display: flex;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .sponsor-img {
+    flex-shrink: 0;
+    
   }
   @media (max-width: 768px){
     .ourClients{

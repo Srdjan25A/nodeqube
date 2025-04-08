@@ -39,10 +39,10 @@ const ServicesSection: React.FC = () => {
             <SwiperSlide>
               <div className="card-container-main">
                 <div className="card-container-image">
-                  <img src="pen-tool.png" alt="Brand Design" />
+                  <img src="pen-tool.png" alt="pen-tool" />
                   <img src="external-link.png" alt="Link" />
                 </div>
-                <p className="card-text">Brand Design</p>
+                <p className="card-text">Branding & Strategy</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -51,16 +51,34 @@ const ServicesSection: React.FC = () => {
                   <img src="code.png" alt="Web Development" />
                   <img src="external-link.png" alt="Link" />
                 </div>
-                <p className="card-text">Web Development</p>
+                <p className="card-text">Web & App Development</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="card-container-main">
                 <div className="card-container-image">
-                  <img src="code.png" alt="App Development" />
+                  <img src="bar-chart-22.png" alt="bar-chart" />
                   <img src="external-link.png" alt="Link" />
                 </div>
-                <p className="card-text">App Development</p>
+                <p className="card-text">Digital Marketing</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="card-container-main">
+                <div className="card-container-image">
+                  <img src="Vector16.png" alt="E-commerce" />
+                  <img src="external-link.png" alt="Link" />
+                </div>
+                <p className="card-text">E-commerce Solutions</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="card-container-main">
+                <div className="card-container-image">
+                  <img src="Group 6994.png" alt="Quality" />
+                  <img src="external-link.png" alt="Link" />
+                </div>
+                <p className="card-text">Quality Assurance & Testing</p>
               </div>
             </SwiperSlide>
           </Swiper>

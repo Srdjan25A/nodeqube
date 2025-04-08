@@ -62,12 +62,20 @@ const WorkSection: React.FC = () =>{
                     >
                     <SwiperSlide>
                         <div className="work-slider-container">
-                            <img src="goin.png" alt="goin" className="img-fluid rounded" />
+                            <img src="smartphone.png" alt="goin" className="img-fluid rounded" />
+                            <div className="overlay-content-desktop">
+                                <h3 className="project-title">Goin’ App</h3>
+                                <div className="project-tag">Mobile app</div>
+                            </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="work-slider-container">
-                            <img src="premier-style.png" alt="goin" className="img-fluid rounded" />
+                            <img src="image111.png" alt="goin" className="img-fluid rounded" />
+                            <div className="overlay-content-desktop">
+                                <h3 className="project-title">Delta Holding</h3>
+                                <div className="project-tag">Website</div>
+                            </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
