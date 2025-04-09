@@ -43,4 +43,7 @@
         margin-top: 180px;
         width: 90%;
     }
+    .accordion-button{
+        border-top: 0px !important;
+    }
 }

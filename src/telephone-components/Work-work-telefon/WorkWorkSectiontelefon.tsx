@@ -42,7 +42,7 @@ const WorkWorkSection: React.FC = () =>{
                 </div>
             </div>
             <div className='row'>
-                <div className='col-12'>
+                <div className='col-12 padding-work'>
                 <Swiper
                     ref={swiperRef1}
                     spaceBetween={10}
@@ -70,8 +70,8 @@ const WorkWorkSection: React.FC = () =>{
                         <div className="image-overlay">
                             <img src="premier-style.png" alt="premier" className="img-fluid rounded" />
                             <div className="overlay-content">
-                                <h3>Goin' App</h3>
-                                <span>Mobile app</span>
+                                <h3>Premier Style</h3>
+                                <span>Website</span>
                             </div>
                         </div>
                     </SwiperSlide>

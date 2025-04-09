@@ -16,9 +16,11 @@ const LetsTalk: React.FC = () => {
             <Swiper
             spaceBetween={30}
             loop={true}
+            allowTouchMove={false}
             autoplay={{
                 delay: 3000, 
                 disableOnInteraction: false, 
+                reverseDirection: true,
               }}
             breakpoints={{
               460: { slidesPerView: 2 },
@@ -29,24 +31,18 @@ const LetsTalk: React.FC = () => {
             className="swiper-container-lets"
           >
             <SwiperSlide>
-                <img src="Mask group (13).png" alt="slika"></img>
+                <img src="image44.png" alt="image44"></img>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="Mask group (13).png" alt="slika"></img>
+                <img src="image45.png" alt="image45"></img>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="Mask group (13).png" alt="slika"></img>
+                <img src="image46.png" alt="image46"></img>
             </SwiperSlide>
             <SwiperSlide>   
-            <img src="Mask group (13).png" alt="slika"></img>
-            </SwiperSlide>
-            <SwiperSlide>   
-            <img src="Mask group (13).png" alt="slika"></img>
+            <img src="image47.png" alt="image47"></img>
             </SwiperSlide>
           </Swiper>
-            
-            
-            
             <Navbar/>
         </div>
     );

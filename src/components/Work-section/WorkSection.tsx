@@ -36,11 +36,11 @@ const WorkSection: React.FC = () =>{
         };
     }, []);
     return (
-        <div className="row row-work">
+        <div className="row row-work-2 row-work">
                 <div className="col-md-4">
                     <div className="container-work">
-                        <h2 className='work-title'>Work</h2>
-                        <img src="Tag Container.png" alt="number"  ></img>
+                        <h2 className='work-title'>Work</h2>{/*
+                        <img src="Tag Container.png" alt="number"></img> */}
                     </div>
                     <p className="wort-text">A selection of our crafted work, built from scratch by  our talented team.</p>
                     <div className="container-work">
@@ -52,7 +52,7 @@ const WorkSection: React.FC = () =>{
                 <div className='col-md-8'>
                     <Swiper
                         ref={swiperRef}
-                        spaceBetween={30}
+                        spaceBetween={4}
                         /*slidesPerView={3}*/
                         breakpoints={{
                         460: {slidesPerView: 2},
@@ -80,7 +80,20 @@ const WorkSection: React.FC = () =>{
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="work-slider-container">
-                            <img src="goin.png" alt="goin" className="img-fluid rounded" />
+                            <img src="image (4).png" alt="Telekom" className="img-fluid rounded" />
+                            <div className="overlay-content-desktop">
+                                <h3 className="project-title">Telekom Sebia</h3>
+                                <div className="project-tag">Website</div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="work-slider-container">
+                            <img src="image (5).png" alt="Telekom" className="img-fluid rounded" />
+                            <div className="overlay-content-desktop">
+                                <h3 className="project-title">Telekom Serbia</h3>
+                                <div className="project-tag">Website</div>
+                            </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>

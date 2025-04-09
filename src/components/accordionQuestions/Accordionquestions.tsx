@@ -11,7 +11,7 @@ const Accordionquestions: React.FC = () => {
     <button className='custom-button'>Let's talk <img className="button-elipse" src="Ellipse 10.png" alt="ellipse"></img> <img className="button-arrow" src="Vector 4.png" alt="arrow"></img></button>
     </div>
     <div className='accordion-container container'>  
-        <div className="accordion" id="accordionExample">
+        <div className="accordion first-accordion" id="accordionExample">
             <h2 className='accordion-title'>Frequently asked questions</h2>    
             <div className="accordion-item">
                 <h2 className="accordion-header">

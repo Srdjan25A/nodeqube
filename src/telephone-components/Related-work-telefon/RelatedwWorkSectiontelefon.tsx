@@ -42,7 +42,7 @@ const RelatedWorkSection: React.FC = () =>{
                 </div>
             </div>
             <div className='row'>
-                <div className='col-12'>
+                <div className='col-12 row-work-padding'>
                 <Swiper
                     ref={swiperRef1}
                     spaceBetween={10}

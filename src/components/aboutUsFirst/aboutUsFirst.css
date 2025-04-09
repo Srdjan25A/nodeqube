@@ -16,11 +16,10 @@
     height: 100vh;
     display: flex; 
     justify-content: center; 
-    align-items: center; 
-    padding-left: 88px;
+    align-items: center;
 }
 .aspire-container{
-    width: 100%  !important;
+    width: fit-content  !important;
     
 }
 .aspire-container span{

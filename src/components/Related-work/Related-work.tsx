@@ -36,11 +36,11 @@ const RelatedWork: React.FC = () =>{
         };
     }, []);
     return (
-    <div className="row row-work">
+    <div className="row row-work row-work3">
             <div className="col-md-4">
                 <div className="container-work">
                     <h2 className='work-title'>Related Work</h2>
-                    <img src="Tag Container.png" alt="number"  ></img>
+                   {/* <img src="Tag Container.png" alt="number"  ></img>*/}
                 </div>
                 <p className="wort-text">A selection of our crafted work, built from scratch by  our talented team.</p>
                 <div className="container-work">

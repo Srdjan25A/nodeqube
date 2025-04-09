@@ -37,7 +37,10 @@
     max-width: 1540px;
     margin: 0 auto;    
     overflow: hidden; 
-    padding-left: 38px;
+ 
+  }
+  .row-work-2{
+    width: 1320px !important;
   }
   .work-title{
     font-size: 50px;
@@ -114,6 +117,6 @@
     border-radius: 25px !important; 
   }
   .disabled-btn img {
-    opacity: 0.5;
+    opacity: 0.2;
     pointer-events: none; 
 }
