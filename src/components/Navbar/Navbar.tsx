@@ -33,8 +33,7 @@ const Navbar: React.FC = () => {
             </div>
             <div className='navbar'>
                 <Link to='/' className='link-page'><img src="Home.png" alt="home"></img></Link>
-                <ScrollToTop /> {/* 👈 Bitno da je ovde */}
-
+                <ScrollToTop /> 
                 <ul>
                     <li><Link to="/our-work" className='link-page'>Our Work</Link></li>
                     <li><Link to="/about" className='link-page'>About Us</Link></li>

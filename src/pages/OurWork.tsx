@@ -18,6 +18,7 @@ import HemaxModal from '../modalComponents/HemaxModal/HemaxModal';
 import MonaskiSaborModal from '../modalComponents/MonaskiSaborModal/MonaskiSaborModal';
 import EkonomskoNovinarstvoModal from '../modalComponents/EkonomskoNovinarstvoModal/EkonomskoNovinarstvoModal';
 import GoStudyModal from '../modalComponents/GoStudyModal/GoStudyModal';
+import NavbarTelefon from '../telephone-components/Navbar-telefon/NavbarTelefon';
 const projects = [
     { title: "Delta Holding", category: "website", imageUrl: "/DeltaHolding2.png", backgroundImage:"/Background-card.png" },
     { title: "Telekom Serbia", category: "website", imageUrl: "/TelekomSerbia2.png", backgroundImage:"/Background-card.png"  },
@@ -41,6 +42,7 @@ const OurWork: React.FC = () => {
       <>      
         <Navbar/>
         <section className='ourWork mb-5'>
+            <NavbarTelefon/>
             <div className='container ourwork-cards'>
                 <div className='row'>
                     <div className='col-md-4'>

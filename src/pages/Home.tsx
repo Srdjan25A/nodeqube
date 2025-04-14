@@ -15,9 +15,11 @@ import ServicesSectiontelefon from '../telephone-components/Service-telefon/Serv
 import WhatOurClientsTelefon from '../telephone-components/WhatOurClients-telefon/WhatOurClientstelefon';
 import './home.css';
 import AnimationTextSectionTelefon from "../telephone-components/animationText-telefon/AnimationText";
-  const Home: React.FC = () => {
+import NavbarTelefon from '../telephone-components/Navbar-telefon/NavbarTelefon';
+const Home: React.FC = () => {
     return (
         <section className="home-page mb-5">
+          <NavbarTelefon/>
           <LetsTalkSection/>
           <LetsTalkSectionTelefon/>
           <AnimationTextSection/>
