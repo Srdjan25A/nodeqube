@@ -59,7 +59,7 @@ const WorkWorkSection: React.FC = () =>{
                     <SwiperSlide>
                         
                         <div className="image-overlay">
-                            <img src="goin.png" alt="Goin App" className="img-fluid rounded" />
+                            <img src="image99.png" alt="Goin App" className="img-fluid rounded" />
                             <div className="overlay-content">
                                 <h3>Goin' App</h3>
                                 <span>Mobile app</span>
@@ -68,18 +68,27 @@ const WorkWorkSection: React.FC = () =>{
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="image-overlay">
-                            <img src="premier-style.png" alt="premier" className="img-fluid rounded" />
+                            <img src="image (10).png" alt="delta" className="img-fluid rounded" />
                             <div className="overlay-content">
-                                <h3>Premier Style</h3>
+                                <h3>Delta Holding</h3>
                                 <span>Website</span>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="image-overlay">
-                            <img src="premier-style.png" alt="premier" className="img-fluid rounded" />
+                            <img src="image (11).png" alt="telekom" className="img-fluid rounded" />
                             <div className="overlay-content">
-                                <h3>Goin' App</h3>
+                                <h3>Telekom Serbia</h3>
+                                <span>Website</span>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="image-overlay">
+                            <img src="image (12).png" alt="telekom" className="img-fluid rounded" />
+                            <div className="overlay-content">
+                                <h3>Telekom Serbia</h3>
                                 <span>Mobile app</span>
                             </div>
                         </div>

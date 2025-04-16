@@ -8,10 +8,11 @@ import AccordionQuestionTelefon from '../telephone-components/AccordionQuestions
 import FooterSection from '../components/Footer/Footer';
 import FooterSectiontelefon from '../telephone-components/Footer-telefon/FooterSection-telefon';
 import ServicesUsFirst from "../telephone-components/servicesUsFirst-telefon/ServicesUsFirst";
-
+import NavbarTelefon from '../telephone-components/Navbar-telefon/NavbarTelefon';
 const Services: React.FC = () => {
     return (
         <section className="mb-5">
+            <NavbarTelefon/>
             <ServicesPage/>
             <ServicesUsFirst/>
             <ServicesTimeline/>
