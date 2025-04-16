@@ -14,8 +14,8 @@ const GoinModal = () =>{
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content">
           <div className="modal-header">
-            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
+            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                className="fa-solid fa-x"></i></button>          </div>
           <div className="modal-body">
             <h2>Goin’ Mobile App</h2>
             <p className="p-telekom-content">Goin’ is a social app designed to help college students across America connect, make friends, and create lasting memories.</p>
@@ -32,7 +32,7 @@ const GoinModal = () =>{
               <p className="second-paragraf">The app features a quick and friendly onboarding process, allowing users to set up profiles, select interests, and start connecting within minutes. Vibrant visuals and clear instructions enhance the user journey.</p>
               <div className="color-container-image goinModal-second">
                 <img src="./Container36.png"></img>
-              </div>              
+              </div>
               <div className="row row-image-pop">
                 <div className="col-md-4 color-container-one-column">
                   <img src="./image40.png"></img>
@@ -48,15 +48,15 @@ const GoinModal = () =>{
               <p className="second-paragraf">A unique algorithm suggests connections based on shared interests, making it easy for students to find like-minded peers. Users can explore profiles, join group chats, and plan events effortlessly.</p>
               <div className="color-container-image">
                 <img src="./Container48.png"></img>
-              </div> 
+              </div>
               <h3>Connection invites and<br></br> seamless chats</h3>
               <p className="goinModal-paragraf">The app allows users to send personalized connection invites, making it easy to reach out and start building friendships. Once connected, users can enjoy real-time chats with a clean, intuitive interface, perfect for casual conversations or deeper connections. Group chat options bring communities together, fostering a sense of belonging.</p>
               <div className="color-container-image">
                 <img src="./Image Container50.png"></img>
-              </div> 
-              
+              </div>
+
             </div>
-            
+
           </div>
           <div className="modal-footer">
                   <p className="first-close">Press ESC to close</p>

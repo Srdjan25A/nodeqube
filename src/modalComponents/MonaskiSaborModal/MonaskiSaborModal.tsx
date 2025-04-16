@@ -14,8 +14,8 @@ const MonaskisaborModal = () =>{
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content">
           <div className="modal-header">
-            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
+            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                className="fa-solid fa-x"></i></button>          </div>
           <div className="modal-body">
             <h2>Monastic Council</h2>
             <p className="size-paragraf">Monastic Council is a cultural platform celebrating Serbian monastic traditions, offering rich insights into history, spirituality, and architecture.</p>
@@ -51,7 +51,7 @@ const MonaskisaborModal = () =>{
               </div>
             </div>
             <div className="modal-container-footer modal-top-margin">
-                <button className="custom-button-1">View Live Website <img className="button-elipse" src="Ellipse 10.png" alt="ellipse"></img><img className="button-arrow" src="Vector 4.png" alt="arrow"></img></button>        
+                <button className="custom-button-1">View Live Website <img className="button-elipse" src="Ellipse 10.png" alt="ellipse"></img><img className="button-arrow" src="Vector 4.png" alt="arrow"></img></button>
             </div>
           </div>
           <div className="modal-footer">

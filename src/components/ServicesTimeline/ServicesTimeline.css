@@ -1,4 +1,4 @@
-.timeline-description1{
+.timeline-description1, .timeline-item li {
     color: white;
     width: 78%;
     font-size: 18px;
@@ -6,7 +6,7 @@
     line-height: 23.4px;
 }
 .content-display{
-    margin-left: 117px; 
+    margin-left: 117px;
     display: flex;
 }
 .timeline-picture{
@@ -15,33 +15,33 @@
 .date-title-text{
     width: 80%;
 }
-.timeline-vertical1::before {
-    content: '';
-    position: absolute;
-    left: 10px; 
-    width: 8px; 
-    height: 88%; 
-     
-    background-color: #38413C; 
-    top: 5px; 
-  }
-  
+/*.timeline-vertical1::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 10px;*/
+/*    width: 8px;*/
+/*    height: 88%;*/
+
+/*    background-color: #38413C;*/
+/*    top: 5px;*/
+/*  }*/
+
     .timeline-point1 {
-        width: 126px !important; 
-        height: 126px; 
-        background-color: #38413C; 
+        width: 126px !important;
+        height: 126px;
+        background-color: #38413C;
         font-size: 60px;
         font-weight: 900;
         color: #98D28B;
         line-height: 78px;
-        border-radius: 25px; 
-        position: absolute; 
-        left: -50px; 
-        top: 12%; 
-        transform: translateY(-50%); 
+        border-radius: 25px;
+        position: absolute;
+        left: -50px;
+        top: 12%;
+        transform: translateY(-50%);
         display: flex;
-        justify-content: center; 
-        align-items: center; 
+        justify-content: center;
+        align-items: center;
       }
 @media (max-width: 768px){
     .full-timeline-container{

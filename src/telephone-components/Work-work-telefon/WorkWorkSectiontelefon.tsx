@@ -25,11 +25,11 @@ const WorkWorkSection: React.FC = () =>{
                 <div className='col-12'>
                     <div className='container-related'>
                         <h2>Work</h2>
-                        <img src="TagContainer1.png" alt="number" ></img>
+                        {/*<img src="TagContainer1.png" alt="number" ></img>*/}
                     </div>
 
                     <p className="text-work-content">A selection of our crafted work, built from scratch by  our talented team.</p>
-                    
+
                     <div className="container-work-button">
                         <div className='container-left-button'>
                             <button className="work-button">Case studies</button>
@@ -57,7 +57,7 @@ const WorkWorkSection: React.FC = () =>{
                         768: { slidesPerView: 1.5 }
                     }}>
                     <SwiperSlide>
-                        
+
                         <div className="image-overlay">
                             <img src="image99.png" alt="Goin App" className="img-fluid rounded" />
                             <div className="overlay-content">

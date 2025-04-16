@@ -14,8 +14,8 @@ const SunetiModal = () => {
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content">
           <div className="modal-header">
-            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
+            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                className="fa-solid fa-x"></i></button>          </div>
           <div className="modal-body">
             <h2>Suneti Web App</h2>
             <p className="p-telekom-content">Suneti is a powerful web app designed for tracking vessel schedules and container movements, providing real-time data and detailed analytics for efficient maritime operations.</p>

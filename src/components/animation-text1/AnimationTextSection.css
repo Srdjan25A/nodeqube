@@ -5,12 +5,21 @@
     color: #A6B5A4;
     text-transform: uppercase;
 }
+
+.animation-content1 span {
+    opacity: 0.3;
+}
+
+.animation-content1 span.visible {
+    opacity: 1;
+}
+
 .animation-container1{
-    
+
     width: 843px;
    /* margin-bottom: 160px;*/
     margin-top: 169px;
-    
+
 }
 .animation-image-content1{
     display: flex;
@@ -53,10 +62,10 @@
 
     }
     .animation-container1{
-    
+
         width: 100%;
        /* margin-bottom: 160px;*/
         margin-top: 169px;
-        
+
     }
 }

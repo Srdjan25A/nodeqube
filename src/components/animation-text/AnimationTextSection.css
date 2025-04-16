@@ -33,7 +33,13 @@
 }
 @media (max-width:768px){
     .animation-container{
-        display: none;
+       width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    p.animation-content {
+        font-size: 22px;
+        line-height: 28.6px;
     }
 }
 

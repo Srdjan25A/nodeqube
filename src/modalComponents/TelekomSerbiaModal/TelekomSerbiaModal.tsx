@@ -14,8 +14,8 @@ const TelekomSerbiaModal = () => {
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content">
           <div className="modal-header">
-            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
+            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                className="fa-solid fa-x"></i></button>          </div>
           <div className="modal-body">
             <h2>Telekom Serbia Group</h2>
             <p className="p-telekom-content">Telekom Serbia Group is a leading telecommunications company in Southeast Europe, offering innovative services in mobile, internet, multimedia, and IT solutions.</p>
@@ -45,7 +45,7 @@ const TelekomSerbiaModal = () => {
               </div>
             </div>
             <div className="modal-container-footer">
-                <button className="custom-button-1">View Live Website <img className="button-elipse" src="Ellipse 10.png" alt="ellipse"></img><img className="button-arrow" src="Vector 4.png" alt="arrow"></img></button>        
+                <button className="custom-button-1">View Live Website <img className="button-elipse" src="Ellipse 10.png" alt="ellipse"></img><img className="button-arrow" src="Vector 4.png" alt="arrow"></img></button>
             </div>
           </div>
           <div className="modal-footer">

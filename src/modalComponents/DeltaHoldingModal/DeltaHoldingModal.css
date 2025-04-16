@@ -47,6 +47,12 @@
 .modal-header .btn-close{
     background-color: #38413C;
     border-radius: 25px;
+    background-image: none;
+}
+.modal-header .btn-close i {
+    position: relative;
+    bottom: 3px;
+    color: #98D28B;
 }
 .modal-footer{
     padding: 0px;
@@ -93,11 +99,11 @@
     width: 82% !important;
     margin: 0  !important;
 }
-.color-container-image{    
-    width: 100%;              
-    overflow: hidden;          
+.color-container-image{
+    width: 100%;
+    overflow: hidden;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
 .container-one-image{
     width: 100%;
@@ -107,18 +113,18 @@
 }
 .container-one-image img{
     background-color: #38413C;
-    max-width: 100%;          
-    height: auto;              
+    max-width: 100%;
+    height: auto;
     display: block;
-    border-radius: 26px; 
+    border-radius: 26px;
     padding: 19px 35px;
 }
 .color-container-image img {
     background-color: #38413C;
-    max-width: 100%;          
-    height: auto;              
+    max-width: 100%;
+    height: auto;
     display: block;
-    border-radius: 26px; 
+    border-radius: 26px;
   }
 .color-container-one-column{
     background-color: #38413C;
@@ -166,13 +172,13 @@
     margin-left: 12px;
 }
 .button-arrow {
-  display: none; 
+  display: none;
 }
 .custom-button-1:hover .button-elipse {
-  display: none; 
+  display: none;
 }
 .custom-button-1:hover .button-arrow {
-  display: inline-block; 
+  display: inline-block;
 }
 .modal-container-footer{
     display: flex;

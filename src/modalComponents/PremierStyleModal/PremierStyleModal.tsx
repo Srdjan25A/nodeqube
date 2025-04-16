@@ -14,8 +14,8 @@ const PremierStyleModal = () =>{
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content">
           <div className="modal-header">
-            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
+            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                className="fa-solid fa-x"></i></button>          </div>
           <div className="modal-body">
             <h2>Premier Style</h2>
             <p className="p-telekom-content">Premier Style is a luxury interior design brand based in Switzerland, offering bespoke furniture and interior solutions for corporate spaces and high-end clients.</p>
@@ -43,12 +43,12 @@ const PremierStyleModal = () =>{
               <p className="second-paragraf">The website features an inspiring gallery of luxurious living room setups, blending modern elegance with comfort. Each design showcases Premier Style’s ability to create personalized spaces tailored to clients’ tastes. </p>
               <div className="color-container-image">
                 <img src="./Frame55.png"></img>
-              </div>              
+              </div>
               <div className="color-container-image padding-last-premier">
                 <img src="./Section Container22.png"></img>
               </div>
             </div>
-            
+
           </div>
           <div className="modal-footer">
                   <p className="first-close">Press ESC to close</p>

@@ -4,13 +4,14 @@ import 'swiper/css'
 import React from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import './FooterSection-telefon.css';
+import {Link} from "react-router-dom";
 const FooterSectiontelefon: React.FC = () => {
     return (
         <div className='footer-container-telefon'>
             <h2 className='main-footer-content-telefon'><span>Let’s create something great together</span>---<span>Let’s create something great together</span></h2>
-            <div className='container'>            
+            <div className='container'>
                 <div className='footerTelefon'>
-                    <h3>Get in Touch</h3>
+                    <h3><Link to={'/contact'}>Get in Touch</Link></h3>
                     <p>All rights reserved 2025 @ Node Qube</p>
                     <p className='footerPrivacy'>Privacy Policy</p>
                     <p className='footerFollow'>Follow Us:</p>
@@ -22,5 +23,5 @@ const FooterSectiontelefon: React.FC = () => {
             </div>
         </div>
     );
-}; 
+};
 export default FooterSectiontelefon;

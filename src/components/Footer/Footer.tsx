@@ -4,6 +4,7 @@ import 'swiper/css'
 import React from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import './Footer.css';
+import {Link} from "react-router-dom";
 const FooterSection: React.FC = () => {
     return (
         <div className='main-footer-desktop'>
@@ -11,11 +12,11 @@ const FooterSection: React.FC = () => {
             <div className='container'>
                 <div className='footer'>
                     <div className='footer-content'>
-                        <h1 className='footer-title'>Get in touch</h1>
+                        <h1 className='footer-title'><Link to={'/contact'}>Get in Touch</Link></h1>
                     </div>
                     <div className="footer-bottom">
                         <p className="footer-left">All rights reserved 2025 @ Node Qube</p>
-              
+
                         <div className='footer-bottom-right'>
                             <a href="#" className="footer-right">Privacy Policy</a>
                             <a href="#" className='footer-right2'>Follow Us:</a>

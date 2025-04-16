@@ -2,6 +2,10 @@ html {
     background: #1a1a1a;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .navbar{
     background-color: #47705C99;
     padding: 16px;
@@ -17,6 +21,11 @@ html {
     transform: translateX(-50%); /*vrati ga 50posto*/
 
 }
+
+.modal {
+    backdrop-filter: blur(5px);
+}
+
 .navbar ul{
     display:flex;
     text-decoration: none;
