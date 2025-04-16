@@ -2,9 +2,40 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'swiper/css'
 import "swiper/css/autoplay";
 import { Link } from "react-router-dom";
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './Navbar.css';
 const Navbar: React.FC = () => {
+
+    const [currTime, setCurrTime] = useState('');
+    const [currDate, setCurrDate] = useState('');
+    const [currAmPm, setCurrAmPm] = useState('');
+
+    useEffect(() =>{
+        const updateTime = () => {
+            const now = new Date();
+
+            const hours = now.getHours();
+            const minutes = now.getMinutes();
+
+            const ampm = hours >= 12 ? 'pm' : 'am';
+            const formatedHours = hours % 12 || 12;
+            const formatedMinutes = minutes < 10 ? `0${minutes}` : minutes;
+
+            setCurrTime(`${formatedHours}:${formatedMinutes}`);
+            setCurrAmPm(ampm);
+
+            const day = now.getDate();
+            const month = now.toLocaleString('default', { month: 'long'});
+
+            setCurrDate(`${day}. ${month}`);
+        }
+
+
+        updateTime();
+        const interval = setInterval(updateTime, 1000);
+    });
+
+
     return(
         <div className='Lets-talk'>
             <div className="top-nav">
@@ -12,8 +43,8 @@ const Navbar: React.FC = () => {
                     <img src="nodeqube-logo.svg" alt="nodeqube logo"/>
                 </a>
                 <div className="nav-time">
-                    <h4>12:43</h4>
-                    <p>pm<br/>12. November</p>
+                    <h4>{currTime}</h4>
+                    <p>{currAmPm}<br/>{currDate}</p>
                 </div>
             </div>
             <div className='navbar'>
