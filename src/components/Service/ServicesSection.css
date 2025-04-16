@@ -7,7 +7,7 @@
     padding-left: 50px;
     display: block;
   }
-  
+
   .title-services {
     font-size: 110px;
     font-weight: 900;
@@ -19,7 +19,7 @@
     color: white;
     margin-bottom: 32px;
   }
-  
+
   .card-container-main {
     background-color: #38413c;
     border-radius: 25px;
@@ -28,28 +28,53 @@
     font-weight: 700;
     line-height: 31.2px;
     padding: 16px;
+    height: fit-content;
+    width: 600px;
+    max-width: 600px;
   }
-  
+
   .card-container-image {
     display: flex !important;
     justify-content: space-between !important;
     margin-bottom: 215px !important;
   }
-  
+
   .card-container-image img {
     width: 24px;
     height: 24px;
   }
-  
+
   .card-text {
     font-size: 20px;
     font-weight: 600;
   }
-  
+
   .swiper-container {
     padding-bottom: 16px;
   }
-  
+
   .swiper-slide {
     padding: 16px;
   }
+.horizontal-section {
+  position: relative;
+  background: #f0f0f0;
+}
+
+.horizontal-scroll-content {
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+.panel {
+  min-width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  border-right: 4px solid white;
+}
+
