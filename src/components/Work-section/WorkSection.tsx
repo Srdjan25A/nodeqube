@@ -36,7 +36,12 @@ const WorkSection: React.FC = () =>{
         };
     }, []);
     return (
-        <div className="row row-work-2 row-work">
+        <div className="row row-work-2 row-work" style={{ position: "relative" }}>
+            <img
+                src="/floating-background-image2.png"
+                alt="floating background"
+                className="floating-background-image floating-background-image3"
+            />
                 <div className="col-md-4">
                     <div className="container-work">
                         <h2 className='work-title'>Work</h2>{/*
@@ -99,7 +104,7 @@ const WorkSection: React.FC = () =>{
                 </Swiper>
                 </div>
             </div>
-    
+
     );
 };
 export default WorkSection;

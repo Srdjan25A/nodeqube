@@ -1,3 +1,6 @@
+html {
+    background: #1a1a1a;
+}
 
 .navbar{
     background-color: #47705C99;
@@ -49,6 +52,10 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
+}
+
+div#root {
+    background-color: #1a1a1a;
 }
 
 .nav-time {

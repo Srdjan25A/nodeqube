@@ -37,69 +37,72 @@ const ServicesSection: React.FC = () => {
   }, []);
 
   return (
-      <div
-          ref={containerRef}
-          className="horizontal-section"
-          style={{ height: `${scrollLength}px` }}
-      >
-        <div
-            ref={contentRef}
-            className="horizontal-scroll-content"
-            style={{
-              position: "sticky",
-              top: 0,
-              display: "inline-flex",
-              height: "100vh",
-            }}
-        >
-          <div>
-            <h2 className="title-services">Our Services</h2>
-            <div style={{ display: "inline-flex" }}>
-            <div className="card-container-main">
-              <div className="card-container-image">
-                <img src="uiuxdesign.png" alt="UI/UX Design" />
-                <img src="external-link.png" alt="Link" />
-              </div>
-              <p className="card-text">UX/UI Design</p>
-            </div>
-            <div className="card-container-main">
-              <div className="card-container-image">
-                <img src="pen-tool.png" alt="pen-tool" />
-                <img src="external-link.png" alt="Link" />
-              </div>
-              <p className="card-text">Branding & Strategy</p>
-            </div>
-            <div className="card-container-main">
-              <div className="card-container-image">
-                <img src="code.png" alt="Web Development" />
-                <img src="external-link.png" alt="Link" />
-              </div>
-              <p className="card-text">Web & App Development</p>
-            </div>
-            <div className="card-container-main">
-              <div className="card-container-image">
-                <img src="bar-chart-22.png" alt="bar-chart" />
-                <img src="external-link.png" alt="Link" />
-              </div>
-              <p className="card-text">Digital Marketing</p>
-            </div>
-            <div className="card-container-main">
-              <div className="card-container-image">
-                <img src="Vector16.png" alt="E-commerce" />
-                <img src="external-link.png" alt="Link" />
-              </div>
-              <p className="card-text">E-commerce Solutions</p>
-            </div>
-            <div className="card-container-main">
-              <div className="card-container-image">
-                <img src="Group 6994.png" alt="Quality" />
-                <img src="external-link.png" alt="Link" />
-              </div>
-              <p className="card-text">Quality Assurance & Testing</p>
-            </div>
-            </div>
-          </div>
+      <div>
 
+        <div
+            ref={containerRef}
+            className="horizontal-section"
+            style={{ height: `${scrollLength}px` }}
+        >
+          <div
+              ref={contentRef}
+              className="horizontal-scroll-content"
+              style={{
+                position: "sticky",
+                top: 0,
+                display: "inline-flex",
+                height: "100vh",
+              }}
+          >
+            <div>
+              <h2 className="title-services">Our Services</h2>
+              <div style={{ display: "inline-flex" }}>
+                <div className="card-container-main">
+                  <div className="card-container-image">
+                    <img src="uiuxdesign.png" alt="UI/UX Design" />
+                    <img src="external-link.png" alt="Link" />
+                  </div>
+                  <p className="card-text">UX/UI Design</p>
+                </div>
+                <div className="card-container-main">
+                  <div className="card-container-image">
+                    <img src="pen-tool.png" alt="pen-tool" />
+                    <img src="external-link.png" alt="Link" />
+                  </div>
+                  <p className="card-text">Branding & Strategy</p>
+                </div>
+                <div className="card-container-main">
+                  <div className="card-container-image">
+                    <img src="code.png" alt="Web Development" />
+                    <img src="external-link.png" alt="Link" />
+                  </div>
+                  <p className="card-text">Web & App Development</p>
+                </div>
+                <div className="card-container-main">
+                  <div className="card-container-image">
+                    <img src="bar-chart-22.png" alt="bar-chart" />
+                    <img src="external-link.png" alt="Link" />
+                  </div>
+                  <p className="card-text">Digital Marketing</p>
+                </div>
+                <div className="card-container-main">
+                  <div className="card-container-image">
+                    <img src="Vector16.png" alt="E-commerce" />
+                    <img src="external-link.png" alt="Link" />
+                  </div>
+                  <p className="card-text">E-commerce Solutions</p>
+                </div>
+                <div className="card-container-main">
+                  <div className="card-container-image">
+                    <img src="Group 6994.png" alt="Quality" />
+                    <img src="external-link.png" alt="Link" />
+                  </div>
+                  <p className="card-text">Quality Assurance & Testing</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
   );

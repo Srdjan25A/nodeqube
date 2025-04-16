@@ -66,7 +66,12 @@ const OurWork: React.FC = () => {
     }, []);
 
     return (
-        <div className='container' ref={sectionRef}>
+        <div className='container' ref={sectionRef} style={{ position: "relative" }}>
+            <img
+                src="/floating-background-image2.png"
+                alt="floating background"
+                className="floating-background-image floating-background-image2"
+            />
             <h2 className='title-timeline'>Our WorkFlow</h2>
             <div className="timeline-wrapper">
                 <div className="vertical-line-container">

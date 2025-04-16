@@ -22,11 +22,6 @@ const ScrollToTop = () => {
 const Navbar: React.FC = () => {
     return(
         <div>
-            <img
-                src="/floating-background-image2.png"
-                alt="floating background"
-                className="floating-background-image"
-            />
             <div className='Lets-talk'>
                 <div className="top-nav">
                     <a href="/">

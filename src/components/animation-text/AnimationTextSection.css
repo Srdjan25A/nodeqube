@@ -43,9 +43,9 @@
     position: absolute;
     top: 20%;
     left: 10%;
-    width: 300px;
+    width: 500px;
     z-index: 0;
-    animation: floatRandom 25s infinite ease-in-out alternate;
+    animation: floatRandom 30s infinite ease-in-out alternate;
     pointer-events: none;
 }
 
@@ -55,21 +55,50 @@
         transform: translate(0, 0) scale(1) rotate(0deg);
     }
     25% {
-        transform: translate(20px, -30px) scale(1.2);
+        transform: translate(20px, -30px) scale(1.2) rotate(12deg);;
     }
     50% {
-        transform: translate(-10px, 20px) scale(0.9);
+        transform: translate(-10px, 20px) scale(0.9) rotate(24deg);;
     }
     75% {
-        transform: translate(30px, 10px) scale(1.4);
+        transform: translate(30px, 10px) scale(1.4) rotate(38deg);;
     }
     100% {
-        transform: translate(-20px, -10px) scale(1) rotate(30deg);
+        transform: translate(-20px, -10px) scale(1) rotate(50deg);
     }
+}
+
+/* Floating animation keyframes */
+@keyframes floatRandom2 {
+    0% {
+        transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+    25% {
+        transform: translate(-90px, -30px) scale(1.2) rotate(15deg);;
+    }
+    50% {
+        transform: translate(-10px, 70px) scale(0.9) rotate(30deg);;
+    }
+    75% {
+        transform: translate(-100px, 10px) scale(1.4) rotate(45deg);;
+    }
+    100% {
+        transform: translate(-20px, -10px) scale(1) rotate(60deg);
+    }
+}
+
+.floating-background-image2 {
+    left: 90%;
+    width: 800px;
+    animation: floatRandom2 30s infinite ease-in-out alternate;
+}
+
+.floating-background-image3 {
+    left: 3%;
 }
 
 /* Make sure container is relative for absolute image */
 .animation-container {
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }

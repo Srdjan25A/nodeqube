@@ -2,6 +2,13 @@
     text-align: center;
     padding-top: 142px;
     overflow-x: hidden;
+    background-image: url("/public/homepage-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.home-page {
+    background-color: #1a1a1a;
 }
 .swiper-container-lets{
   width: 100% !important;
