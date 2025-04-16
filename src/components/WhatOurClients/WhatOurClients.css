@@ -17,6 +17,7 @@
     font-weight: 900;
     line-height: 78px;
     color: white;
+    padding-left: 26px;
 }
 .first-column-what{
     display: flex;

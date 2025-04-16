@@ -7,6 +7,10 @@
         display: block;
         margin-top: 72px;;
     }
+    .row-work-padding{
+        padding-left: 0;
+        padding-right: 0;
+    }
     .image-overlay {
         position: relative;
         overflow: hidden;

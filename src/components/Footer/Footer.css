@@ -16,7 +16,7 @@
     line-height: 208px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    animation: marquee 10s linear infinite;
+    animation: marquee 20s linear infinite;
   }
 
   @keyframes marquee {

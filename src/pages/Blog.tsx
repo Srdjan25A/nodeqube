@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '/clock.svg';
-
+import NavbarTelefon from '../telephone-components/Navbar-telefon/NavbarTelefon';
 import {Card, ListGroup, Button, Badge} from "react-bootstrap";
 import './Blog.css';
 import FooterSection from '../components/Footer/Footer';
@@ -21,6 +21,7 @@ const Blog: React.FC = () => {
 
     return (
         <section className='ourWork mb-5'>
+            <NavbarTelefon/>
             <div className='container ourwork-cards'>
                 <div className="row">
                     <div className="col-md-6 featured-blog">

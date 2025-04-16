@@ -4,10 +4,14 @@
     overflow-x: hidden;
 }
 .swiper-container-lets{
-  width: 100% !important;   
-  overflow: hidden; 
+  width: 100% !important;
+  overflow: hidden;
+  margin-top: 30px;
 }
-.Lets-talk p{    
+.swiper-container-lets img{
+  border-radius: 25px;
+}
+.Lets-talk p{
     font-size: 70px;
     font-style: italic;
     font-weight: 500;
@@ -32,26 +36,57 @@
     padding-bottom: 14px;
     padding-left: 12px;
     padding-right: 12px;
+    position: relative;
+    overflow: hidden;
 }
+
+button.custom-button:after {
+    content: "Test text";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+    top: -40px;
+    transform: rotate(-15deg);
+    left: -15px;
+}
+
+button.custom-button:hover:after {
+    top: 15px;
+    left: 0;
+    transform: rotate(0deg);
+}
+
+button.custom-button span {
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+button.custom-button:hover span {
+    top: 40px;
+    transform: rotate(15deg);
+}
+
 .button-elipse{
     margin-left: 12px;
 }
 .button-arrow {
-  display: none; 
+  display: none;
 }
 .custom-button:hover .button-elipse {
-  display: none; 
+  display: none;
 }
 .custom-button:hover .button-arrow {
-  display: inline-block; 
+  display: inline-block;
 }
 .swiper-container-lets {
-    transform: rotate(4deg); 
+    transform: rotate(4deg);
     transform-origin: center;
 }
 @media (max-width:768px){
   .Lets-talk{
     display: none;
   }
-  
+
 }

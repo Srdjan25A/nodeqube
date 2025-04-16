@@ -36,11 +36,11 @@ const RelatedWork: React.FC = () =>{
         };
     }, []);
     return (
-    <div className="row row-work">
+    <div className="row row-work row-work3">
             <div className="col-md-4">
                 <div className="container-work">
                     <h2 className='work-title'>Related Work</h2>
-                    <img src="Tag Container.png" alt="number"  ></img>
+                   {/* <img src="Tag Container.png" alt="number"  ></img>*/}
                 </div>
                 <p className="wort-text">A selection of our crafted work, built from scratch by  our talented team.</p>
                 <div className="container-work">
@@ -63,11 +63,21 @@ const RelatedWork: React.FC = () =>{
                 <SwiperSlide>
                     <div className="work-slider-container">
                         <img src="goin.png" alt="goin" className="img-fluid rounded" />
+                        <div className="overlay-content-desktop">
+                                <h3 className="project-title">Goin’</h3>
+                                <div className="project-tag">Mobile app</div>
+                                <div className="project-tag">UI & UX design</div>
+                        </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="work-slider-container">
                         <img src="premier-style.png" alt="goin" className="img-fluid rounded" />
+                        <div className="overlay-content-desktop">
+                            <h3 className="project-title">Premier Style</h3>
+                            <div className="project-tag">Website</div>
+                            <div className="project-tag">UI & UX design</div>
+                        </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>

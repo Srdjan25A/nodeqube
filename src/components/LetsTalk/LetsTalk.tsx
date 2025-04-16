@@ -11,42 +11,38 @@ const LetsTalk: React.FC = () => {
         <div className='Lets-talk'>
             <p>Design for today.</p>
             <h2>Success for Tomorrow.</h2>
-            <button className='custom-button'>Let's talk <img className="button-elipse" src="Ellipse 10.png" alt="ellipse"></img> <img className="button-arrow" src="Vector 4.png" alt="arrow"></img></button>
-            
+            <button className='custom-button'><span>Let's talk</span> <img className="button-elipse" src="Ellipse 10.png" alt="ellipse"></img> <img className="button-arrow" src="Vector 4.png" alt="arrow"></img></button>
+
             <Swiper
             spaceBetween={30}
             loop={true}
+            allowTouchMove={false}
             autoplay={{
-                delay: 3000, 
-                disableOnInteraction: false, 
+                delay: 3000,
+                disableOnInteraction: false,
+                reverseDirection: true,
               }}
             breakpoints={{
               460: { slidesPerView: 2 },
               768: { slidesPerView: 2 },
               1200: { slidesPerView: 3.5 },
             }}
-            modules={[Autoplay]} 
+            modules={[Autoplay]}
             className="swiper-container-lets"
           >
             <SwiperSlide>
-                <img src="Mask group (13).png" alt="slika"></img>
+                <img src="image44.png" alt="image44"></img>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="Mask group (13).png" alt="slika"></img>
+                <img src="image45.png" alt="image45"></img>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="Mask group (13).png" alt="slika"></img>
+                <img src="image46.png" alt="image46"></img>
             </SwiperSlide>
-            <SwiperSlide>   
-            <img src="Mask group (13).png" alt="slika"></img>
-            </SwiperSlide>
-            <SwiperSlide>   
-            <img src="Mask group (13).png" alt="slika"></img>
+            <SwiperSlide>
+            <img src="image47.png" alt="image47"></img>
             </SwiperSlide>
           </Swiper>
-            
-            
-            
             <Navbar/>
         </div>
     );

@@ -5,6 +5,15 @@
     color: #A6B5A4;
     text-transform: uppercase;
 }
+
+.animation-content span {
+    opacity: 0.3;
+}
+
+.animation-content span.visible {
+    opacity: 1;
+}
+
 .animation-container{
     max-width: 2440px;
     width: 843px;
@@ -26,4 +35,41 @@
     .animation-container{
         display: none;
     }
+}
+
+
+/* Floating background image inside AnimationTextSection */
+.floating-background-image {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 300px;
+    z-index: 0;
+    animation: floatRandom 25s infinite ease-in-out alternate;
+    pointer-events: none;
+}
+
+/* Floating animation keyframes */
+@keyframes floatRandom {
+    0% {
+        transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+    25% {
+        transform: translate(20px, -30px) scale(1.2);
+    }
+    50% {
+        transform: translate(-10px, 20px) scale(0.9);
+    }
+    75% {
+        transform: translate(30px, 10px) scale(1.4);
+    }
+    100% {
+        transform: translate(-20px, -10px) scale(1) rotate(30deg);
+    }
+}
+
+/* Make sure container is relative for absolute image */
+.animation-container {
+    position: relative;
+    overflow: hidden;
 }

@@ -4,6 +4,20 @@ import "swiper/css/autoplay";
 import { Link } from "react-router-dom";
 import React, {useEffect, useState} from 'react';
 import './Navbar.css';
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+
+
+// Ovo je lokalna komponenta unutar App koja skroluje na vrh
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, [pathname]);
+
+  return null;
+};
 const Navbar: React.FC = () => {
 
     const [currTime, setCurrTime] = useState('');
@@ -48,7 +62,8 @@ const Navbar: React.FC = () => {
                 </div>
             </div>
             <div className='navbar'>
-                <img src="Home.png" alt="home"></img>
+                <Link to='/' className='link-page'><img src="Home.png" alt="home"></img></Link>
+                <ScrollToTop /> {/* 👈 Bitno da je ovde */}
                 <ul>
                     <li><Link to="/our-work" className='link-page'>Our Work</Link></li>
                     <li><Link to="/about" className='link-page'>About Us</Link></li>

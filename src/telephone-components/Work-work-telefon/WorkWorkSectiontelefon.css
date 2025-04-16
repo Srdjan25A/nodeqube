@@ -31,6 +31,10 @@
     .image-overlay:hover .overlay-content {
         opacity: 1;
     }
+    .padding-work{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
     
     .overlay-content h3 {
         

@@ -15,9 +15,10 @@ const LetsTalkSectionTelefon: React.FC = () => {
             <button className='custom-button'>Let's talk <img className="button-elipse" src="Ellipse 10.png" alt="ellipse"></img> <img className="button-arrow" src="Vector 4.png" alt="arrow"></img></button>
             
             <Swiper
-            spaceBetween={10}
+            spaceBetween={20}
 
             loop={true}
+            
             autoplay={{
                 delay: 3000, 
                 disableOnInteraction: false, 
@@ -32,19 +33,16 @@ const LetsTalkSectionTelefon: React.FC = () => {
             className="swiper-container-lets"
           >
             <SwiperSlide>
-                <img src="Mask group (13).png" alt="slika"></img>
+                <img src="image (6).png" alt="slika"></img>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="Mask group (13).png" alt="slika"></img>
+                <img src="image (7).png" alt="slika"></img>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="Mask group (13).png" alt="slika"></img>
+                <img src="image (8).png" alt="slika"></img>
             </SwiperSlide>
             <SwiperSlide>   
-            <img src="Mask group (13).png" alt="slika"></img>
-            </SwiperSlide>
-            <SwiperSlide>   
-            <img src="Mask group (13).png" alt="slika"></img>
+            <img src="image (9).png" alt="slika"></img>
             </SwiperSlide>
           </Swiper>
         </div>

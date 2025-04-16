@@ -10,10 +10,11 @@ import AboutUsFirstSectionTelefon from '../telephone-components/aboutUsFirst-tel
 import RelatedWorkSection from '../telephone-components/Related-work-telefon/RelatedwWorkSectiontelefon';
 import FooterSectiontelefon from '../telephone-components/Footer-telefon/FooterSection-telefon';
 import AnimationTextSection from '../components/animation-text1/AnimationTextSection';  
-
+import NavbarTelefon from '../telephone-components/Navbar-telefon/NavbarTelefon';
 const About: React.FC = () => {
     return (
       <section className="aboutus-page mb-5">
+            <NavbarTelefon/>
             <AboutUsFirst/>
             <AboutUsFirstSectionTelefon/>
             <AnimationTextSection/>
