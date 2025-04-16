@@ -20,8 +20,8 @@ const FooterSection: React.FC = () => {
                         <div className='footer-bottom-right'>
                             <a href="#" className="footer-right">Privacy Policy</a>
                             <a href="#" className='footer-right2'>Follow Us:</a>
-                            <img src="Social Media Icon.png" alt="in" className='linkin'></img>
-                            <img src="Social Media Icon (1).png" alt="instagram" className='instagram-icon'></img>
+                            <Link to={'https://www.linkedin.com/company/nodeqube/'}><img src='Social Media Icon.png' className='instagram-icon' alt='in'></img></Link>
+                            <Link to={'https://www.instagram.com/node.qube?igsh=N2c3ZTZkOTlxdXNv'}><img src='Social Media Icon (1).png' alt='ig'></img></Link>
                         </div>
                     </div>
                 </div>

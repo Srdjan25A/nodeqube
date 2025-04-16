@@ -23,6 +23,10 @@
     padding-bottom: 118px;
     margin: 0;
 }
+
+    .footerTelefon h3 a {
+        color: white;
+    }
 .footerTelefon p{
     font-size: 12px;
     font-weight: 400;
@@ -56,29 +60,29 @@
     padding-right: 12px;
 }
 .main-footer-content-telefon {
-    display: flex; 
-    width: 100%; 
+    display: flex;
+    width: 100%;
     overflow: hidden;
     margin-top: 150px;
-    
+
   }
   .main-footer-content-telefon span {
-    white-space: nowrap; 
+    white-space: nowrap;
     text-align: center;
     color: white;
     font-family: Bebas Neue;
     font-size: 66.07px;
     font-weight: 400;
     line-height: 85.9px;
-    animation: marquee 10s linear infinite; 
+    animation: marquee 10s linear infinite;
   }
-  
+
   @keyframes marquee {
     0% {
-      transform: translateX(0); 
+      transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%); 
+      transform: translateX(-100%);
     }
   }
   .footer-container-telefon{

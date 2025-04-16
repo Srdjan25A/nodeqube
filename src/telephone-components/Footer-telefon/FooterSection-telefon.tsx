@@ -16,8 +16,8 @@ const FooterSectiontelefon: React.FC = () => {
                     <p className='footerPrivacy'>Privacy Policy</p>
                     <p className='footerFollow'>Follow Us:</p>
                     <div className='social-container'>
-                        <img src='Social Media Icon.png' className='instagram-icon' alt='in'></img>
-                        <img src='Social Media Icon (1).png' alt='ig'></img>
+                        <Link to={'https://www.linkedin.com/company/nodeqube/'}><img src='Social Media Icon.png' className='instagram-icon' alt='in'></img></Link>
+                        <Link to={'https://www.instagram.com/node.qube?igsh=N2c3ZTZkOTlxdXNv'}><img src='Social Media Icon (1).png' alt='ig'></img></Link>
                     </div>
                 </div>
             </div>
