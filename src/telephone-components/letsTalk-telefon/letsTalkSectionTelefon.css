@@ -7,19 +7,22 @@
     letter-spacing: 0%;
     color: white;
 }
+.swiper-container-lets{
+    margin-top: 85px;
+}
 .Lets-talk1 h2{
     font-weight: 700;
     font-size: 32px;
     line-height: 41.6px;
     letter-spacing: 0%;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
     color: white;
 }
 .Lets-talk1{
     width: 100%;
     display: block !important;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 58px;
 }
 .Lets-talk1 button{
     border-radius: 41px;
