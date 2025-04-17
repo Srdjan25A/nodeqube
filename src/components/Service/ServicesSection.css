@@ -65,5 +65,22 @@
 .horizontal-scroll-content {
   will-change: transform;
   transition: transform 0.1s linear;
-  padding-top: 20vh
+  padding-top: 30vh
+}
+
+.title-services {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.fixed-title {
+  position: fixed;
+  top: 100px;
+  left: 50px; /* Adjust this if you want */
+  z-index: 100;
+}
+
+.title-wrapper {
+  height: 100px !important;
 }

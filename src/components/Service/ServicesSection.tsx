@@ -16,7 +16,8 @@ const ServicesSection: React.FC = () => {
   useEffect(() => {
     const container = containerRef.current;
     const content = contentRef.current;
-    if (!container || !content) return;
+    const title = document.querySelector('.title-services') as HTMLElement;
+    if (!container || !content || !title) return;
 
     const contentWidth = content.scrollWidth;
     const containerHeight = window.innerHeight + contentWidth - window.innerWidth;
@@ -25,16 +26,30 @@ const ServicesSection: React.FC = () => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       const containerTop = container.offsetTop;
+      const containerBottom = containerTop + containerHeight;
 
-      if (scrollY >= containerTop && scrollY <= containerTop + containerHeight) {
+      // Handle horizontal scroll
+      if (scrollY >= containerTop && scrollY <= containerBottom) {
         const scrollOffset = scrollY - containerTop;
         content.style.transform = `translateX(-${scrollOffset}px)`;
+
+        const titleTop = title.getBoundingClientRect().top;
+        if (titleTop <= 100) {
+          title.classList.add('fixed-title');
+        } else {
+          title.classList.remove('fixed-title');
+        }
+      } else {
+        // If outside the section, always reset
+        content.style.transform = 'translateX(0)';
+        title.classList.remove('fixed-title');
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
 
   return (
       <div>
@@ -44,6 +59,10 @@ const ServicesSection: React.FC = () => {
             className="horizontal-section"
             style={{ height: `${scrollLength}px` }}
         >
+          <div className="title-wrapper">
+            <h2 className="title-services">Our Services</h2>
+          </div>
+
           <div
               ref={contentRef}
               className="horizontal-scroll-content"
@@ -55,7 +74,6 @@ const ServicesSection: React.FC = () => {
               }}
           >
             <div>
-              <h2 className="title-services">Our Services</h2>
               <div style={{ display: "inline-flex" }}>
                 <div className="card-container-main">
                   <div className="card-container-image">
