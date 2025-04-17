@@ -11,7 +11,12 @@ const LetsTalk: React.FC = () => {
         <div className='Lets-talk'>
             <p>Design for today.</p>
             <h2>Success for Tomorrow.</h2>
-            <button className='custom-button'><span>Let's talk</span> <img className="button-elipse" src="Ellipse 10.png" alt="ellipse"></img> <img className="button-arrow" src="Vector 4.png" alt="arrow"></img></button>
+            <button className='custom-button'>
+                <span>Let's talk</span>
+                <div className="circle">
+                    <img className="button-arrow-new" src="Vector 4.png" alt="arrow" />
+                </div>
+            </button>
 
             <Swiper
             spaceBetween={30}

@@ -1,6 +1,6 @@
 .ourClients{
     text-align: center;
-    
+
   }
   .title-ourClients{
       color: white;
@@ -17,14 +17,14 @@
   .sponsor-strip-wrapper {
     position: relative;
     overflow: hidden;
-    
+
   }
-  
+
   .sponsor-track {
     animation: scroll-left 10s linear infinite;
     display: flex;
   }
-  
+
   @keyframes scroll-left {
     0% {
       transform: translateX(0);
@@ -33,13 +33,27 @@
       transform: translateX(-50%);
     }
   }
-  
+
   .sponsor-img {
     flex-shrink: 0;
-    
+
   }
   @media (max-width: 768px){
     .ourClients{
       display: none;
     }
   }
+
+.ourClients .row {
+    overflow: hidden;
+}
+
+.ourClients .row .col {
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    top: 150px;
+}
+
+.ourClients .row.animate .col {
+    top: 0;
+}

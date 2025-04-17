@@ -95,3 +95,32 @@ div#root {
     padding-left: 5px;
     font-style: normal !important;
 }
+
+div.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background: #272D2A;
+    display: inline-block;
+    margin: 0 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-arrow-new {
+    position: absolute;
+    right: -100px;
+    top: 21px;
+    width: 10px;
+    transition: all 0.3s ease-in-out;
+    filter: invert(1);
+}
+
+.Lets-talk button:hover .button-arrow-new {
+    right: 27px;
+}
+
+.Lets-talk button:hover .circle {
+    width: 20px;
+    height: 20px;
+}

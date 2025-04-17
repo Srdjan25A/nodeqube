@@ -51,16 +51,14 @@ button.custom-button:after {
     content: "Test text";
     position: absolute;
     width: 100%;
-    left: 0;
     transition: all 0.5s ease-in-out;
     top: -40px;
-    transform: rotate(-15deg);
-    left: -15px;
+    transform: rotate(15deg);
+    left: -20px;
 }
 
 button.custom-button:hover:after {
-    top: 15px;
-    left: 0;
+    top: 13px;
     transform: rotate(0deg);
 }
 
@@ -68,11 +66,11 @@ button.custom-button span {
     transition: all 0.5s ease-in-out;
     position: relative;
     top: 0;
+    opacity: 1;
 }
 
 button.custom-button:hover span {
-    top: 40px;
-    transform: rotate(15deg);
+    opacity: 0;
 }
 
 .button-elipse{

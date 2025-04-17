@@ -103,6 +103,18 @@
     left: 3%;
 }
 
+.floating-background-image4 {
+    left: -2%;
+    top: 40%;
+    width: 600px;
+}
+
+.floating-background-image5 {
+    left: 80%;
+    top: 0%;
+    width: 600px;
+}
+
 /* Make sure container is relative for absolute image */
 .animation-container {
     position: relative;

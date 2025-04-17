@@ -40,10 +40,10 @@
     margin-bottom: 215px !important;
   }
 
-  .card-container-image img {
-    width: 24px;
-    height: 24px;
-  }
+  /*.card-container-image img {*/
+  /*  width: 58px;*/
+  /*  height: 58px;*/
+  /*}*/
 
   .card-text {
     font-size: 20px;
@@ -70,7 +70,7 @@
 
 .title-services {
   position: relative;
-  transition: all 0.3s ease;
+  /*transition: all 0.3s ease;*/
   z-index: 10;
 }
 

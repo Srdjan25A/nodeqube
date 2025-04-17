@@ -8,6 +8,7 @@ import './Blog.css';
 import FooterSection from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
 import BlogCard from "../blog-components/BlogCard/BlogCard";
+import NlIframe from "../components/NlIframe/NlIframe";
 const blogs = [
     { title: "Why we love Webflow (And You Should, Too!)", category: "tips and tricks", imageUrl: "/DeltaHolding2.png", time:"5 min reading" },
     { title: "Why we love Webflow (And You Should, Too!)", category: "tips and tricks", imageUrl: "/TelekomSerbia2.png", time:"5 min reading"  },
@@ -93,6 +94,7 @@ const Blog: React.FC = () => {
 
             <div className="get-nl">
                 <h3>Get our latest blogs straight to your inbox</h3>
+                <NlIframe></NlIframe>
             </div>
 
             <FooterSection/>

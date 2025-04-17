@@ -13,7 +13,18 @@ import './WhatOurClients.css';
 
 const WhatOurClients: React.FC = () => {
     return(
-        <div className='container whatOurClients-container'>
+        <div className='container whatOurClients-container' style={{ position: 'relative', overflow: 'hidden' }}>
+            <img
+                src="/floating-background-image2.png"
+                alt="floating background"
+                className="floating-background-image floating-background-image4"
+            />
+
+            <img
+                src="/floating-background-image2.png"
+                alt="floating background"
+                className="floating-background-image floating-background-image5"
+            />
             <div className='row row-what'>
                 <div className='col-md-6 first-column-what'>
                     <h2 className='what-our-title'>What Our Clients Say About Us?</h2>
@@ -27,7 +38,7 @@ const WhatOurClients: React.FC = () => {
                           }}
                           effect={'cards'}
                           grabCursor={true}
-                        
+
                           pagination={{ clickable: true }} // Aktivira paginaciju
                           navigation={true} // Aktivira navigaciju
                           modules={[Navigation, Pagination, EffectCards]}
@@ -51,7 +62,7 @@ const WhatOurClients: React.FC = () => {
                             Node Qube took our online presence to the next level with a beautifully designed website, effective social media management, and impactful campaigns. Their content and blog strategy positioned us as an industry authority, while their marketing efforts brought real business growth. Their seamless execution, creativity, and expertise ensured outstanding results. We’re grateful to have such a dedicated and reliable digital partner.
                             </p>
                             <h4 className='first-h4-testimonials'>Relaksacija Beograd</h4>
-                     
+
                         </div>
                     </SwiperSlide>
 

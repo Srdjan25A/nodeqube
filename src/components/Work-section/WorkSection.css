@@ -35,12 +35,13 @@
     padding-bottom: 220px;
     padding-top: 220px;
     max-width: 1540px;
-    margin: 0 auto;    
-    overflow: hidden; 
- 
+    margin: 0 auto;
+    overflow: hidden;
+
   }
   .row-work-2{
-    width: 1320px !important;
+    max-width: unset;
+    padding-left: 50px;
   }
   .work-title{
     font-size: 50px;
@@ -75,28 +76,28 @@
     align-items: center;
   }
   #prevBtn {
-    width: 42px;           
-    height: 42px;            
-    border: 1px solid white; 
-    color: black;            
-    border-radius: 50%;       
-    text-align: center;       
-    display: flex;            
+    width: 42px;
+    height: 42px;
+    border: 1px solid white;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #4a5556;
     border: none;
-    transform: rotate(180deg); 
+    transform: rotate(180deg);
     margin-bottom: 32px;
   }
   #nextBtn {
-    width: 42px;             
-    height: 42px;           
-    border: 1px solid white;  
-    color: black;         
-    border-radius: 50%;      
-    text-align: center;   
-    display: flex;           
+    width: 42px;
+    height: 42px;
+    border: 1px solid white;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #4a5556;
@@ -114,9 +115,9 @@
   .work-slider-container img{
      width: 458px;
     height: 458px;
-    border-radius: 25px !important; 
+    border-radius: 25px !important;
   }
   .disabled-btn img {
     opacity: 0.2;
-    pointer-events: none; 
+    pointer-events: none;
 }

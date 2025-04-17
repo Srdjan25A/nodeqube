@@ -28,17 +28,30 @@ const ServicesSection: React.FC = () => {
       const containerTop = container.offsetTop;
       const containerBottom = containerTop + containerHeight;
 
-      // Handle horizontal scroll
+      const titleTop = title.getBoundingClientRect().top;
+      const scrollOffset = scrollY - containerTop;
+      if (titleTop <= 100) {
+        title.classList.add('fixed-title');
+      } else {
+        title.classList.remove('fixed-title');
+      }
+
+      if(scrollOffset > 1208) {
+        let newFixedTop = 1308 - scrollOffset;
+        // title.classList.remove('fixed-title')
+        title.style.top = newFixedTop + 'px';
+      }
+
       if (scrollY >= containerTop && scrollY <= containerBottom) {
         const scrollOffset = scrollY - containerTop;
         content.style.transform = `translateX(-${scrollOffset}px)`;
 
-        const titleTop = title.getBoundingClientRect().top;
-        if (titleTop <= 100) {
-          title.classList.add('fixed-title');
-        } else {
-          title.classList.remove('fixed-title');
-        }
+        // const titleTop = title.getBoundingClientRect().top;
+        // if (titleTop <= 100) {
+        //   title.classList.add('fixed-title');
+        // } else {
+        //   title.classList.remove('fixed-title');
+        // }
       } else {
         // If outside the section, always reset
         content.style.transform = 'translateX(0)';
@@ -77,43 +90,37 @@ const ServicesSection: React.FC = () => {
               <div style={{ display: "inline-flex" }}>
                 <div className="card-container-main">
                   <div className="card-container-image">
-                    <img src="uiuxdesign.png" alt="UI/UX Design" />
-                    <img src="external-link.png" alt="Link" />
+                    <img src="figma.svg" alt="UI/UX Design" />
                   </div>
                   <p className="card-text">UX/UI Design</p>
                 </div>
                 <div className="card-container-main">
                   <div className="card-container-image">
-                    <img src="pen-tool.png" alt="pen-tool" />
-                    <img src="external-link.png" alt="Link" />
+                    <img src="pen-tool.svg" alt="pen-tool" />
                   </div>
                   <p className="card-text">Branding & Strategy</p>
                 </div>
                 <div className="card-container-main">
                   <div className="card-container-image">
-                    <img src="code.png" alt="Web Development" />
-                    <img src="external-link.png" alt="Link" />
+                    <img src="code2.svg" alt="Web Development" />
                   </div>
                   <p className="card-text">Web & App Development</p>
                 </div>
                 <div className="card-container-main">
                   <div className="card-container-image">
-                    <img src="bar-chart-22.png" alt="bar-chart" />
-                    <img src="external-link.png" alt="Link" />
+                    <img src="design.svg" alt="bar-chart" />
                   </div>
                   <p className="card-text">Digital Marketing</p>
                 </div>
                 <div className="card-container-main">
                   <div className="card-container-image">
-                    <img src="Vector16.png" alt="E-commerce" />
-                    <img src="external-link.png" alt="Link" />
+                    <img src="horse.svg" alt="E-commerce" />
                   </div>
-                  <p className="card-text">E-commerce Solutions</p>
+                  <p className="card-text">Consulting & Strategy</p>
                 </div>
                 <div className="card-container-main">
                   <div className="card-container-image">
-                    <img src="Group 6994.png" alt="Quality" />
-                    <img src="external-link.png" alt="Link" />
+                    <img src="qa.svg" alt="Quality" />
                   </div>
                   <p className="card-text">Quality Assurance & Testing</p>
                 </div>

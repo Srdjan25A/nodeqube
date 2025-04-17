@@ -66,8 +66,13 @@ const WorkSection: React.FC = () =>{
                     }}
                     >
                     <SwiperSlide>
-                        <div className="work-slider-container">
-                            <img src="smartphone.png" alt="goin" className="img-fluid rounded" />
+                        <div className="work-slider-container" style={{
+                            width: '458px',
+                            height: '458px',
+                            backgroundImage: 'url(/smartphone.png)',
+                            backgroundSize: 'cover',
+                            borderRadius: '30px'
+                        }}>
                             <div className="overlay-content-desktop">
                                 <h3 className="project-title">Goin’ App</h3>
                                 <div className="project-tag">Mobile app</div>
@@ -75,8 +80,13 @@ const WorkSection: React.FC = () =>{
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="work-slider-container">
-                            <img src="image111.png" alt="goin" className="img-fluid rounded" />
+                        <div className="work-slider-container" style={{
+                            width: '458px',
+                            height: '458px',
+                            backgroundImage: 'url(/image111.png)',
+                            backgroundSize: 'cover',
+                            borderRadius: '30px'
+                        }}>
                             <div className="overlay-content-desktop">
                                 <h3 className="project-title">Delta Holding</h3>
                                 <div className="project-tag">Website</div>
@@ -84,23 +94,32 @@ const WorkSection: React.FC = () =>{
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="work-slider-container">
-                            <img src="image (4).png" alt="Telekom" className="img-fluid rounded" />
+                        <div className="work-slider-container" style={{
+                            width: '458px',
+                            height: '458px',
+                            backgroundImage: 'url(\'/image%20(4).png\')',
+                            backgroundSize: 'cover',
+                            borderRadius: '30px'
+                        }}>
                             <div className="overlay-content-desktop">
                                 <h3 className="project-title">Telekom Sebia</h3>
                                 <div className="project-tag">Website</div>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="work-slider-container">
-                            <img src="image (5).png" alt="Telekom" className="img-fluid rounded" />
-                            <div className="overlay-content-desktop">
-                                <h3 className="project-title">Telekom Serbia</h3>
-                                <div className="project-tag">Website</div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
+                    {/*<SwiperSlide>*/}
+                    {/*    <div className="work-slider-container" style={{*/}
+                    {/*        width: '458px',*/}
+                    {/*        height: '458px',*/}
+                    {/*        backgroundImage: 'url(\'/image%20(5).png\')',*/}
+                    {/*        borderRadius: '30px'*/}
+                    {/*    }}>*/}
+                    {/*        <div className="overlay-content-desktop">*/}
+                    {/*            <h3 className="project-title">Telekom Serbia</h3>*/}
+                    {/*            <div className="project-tag">Website</div>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</SwiperSlide>*/}
                 </Swiper>
                 </div>
             </div>
