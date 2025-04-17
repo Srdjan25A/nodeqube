@@ -28,6 +28,10 @@
     left: 20px; /* Adjust to prevent overlap */
     height: 80%; /* Make it slightly shorter on small screens */
   }
+  .title-timeline{
+    margin-top: 160px !important;
+    margin-bottom: 32px !important;
+  }
 
   /* Adjusting the timeline point size for mobile */
   .timeline-point {
